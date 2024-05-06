@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47873
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48880
-SHA256sum: 9c0b5fb54b733e3a204994121c36eb2502e4619d0a50c94ccbb213cd6ea84696
+Size: 48881
+SHA256sum: aa7f095c89b754e5d16c18b1bbf8b192fbe0df7f1698a7ec49aa44162dd35ce0
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -5309,6 +5309,18 @@ Description:  Netfilter (IPv4) kernel modules for connection tracking
  - NOTRACK
  - state
 
+Package: kmod-ipt-coova
+Version: 6.6.30+1.6-9.1
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, libxtables12
+License: GPL-2.0-or-later
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 7699
+Filename: kmod-ipt-coova_6.6.30+1.6-9.1_aarch64_generic.ipk
+Size: 8530
+SHA256sum: f0a59c3294a600ee80cbe6faaef05b48a4beb8bbce01adf16569c122ab79250b
+Description:  Netfilter kernel module for CoovaChilli
+
 Package: kmod-ipt-core
 Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-nf-reject, kmod-nf-ipt, kmod-nf-log
@@ -5779,6 +5791,20 @@ Filename: kmod-ixgbevf_6.6.30-1_aarch64_generic.ipk
 Size: 54247
 SHA256sum: 3da7da662a63d92750c5d74df91855d15272aed96d8d303b920c2400b219ca0f
 Description:  Kernel modules for Intel(R) 82599 Virtual Function Ethernet adapters.
+
+Package: kmod-jool-netfilter
+Version: 6.6.30+4.1.10-1
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-crypto-md5, kmod-nf-conntrack, kmod-nf-conntrack6
+License: GPL-2.0-only
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 152601
+Filename: kmod-jool-netfilter_6.6.30+4.1.10-1_aarch64_generic.ipk
+Size: 149729
+SHA256sum: 2506c5de22f248897a4805d703f445f8576e1c56df250e347d00fc1a310aa5c9
+Description:  Jool is an Open Source SIIT and NAT64 for Linux.
+ 
+ This package provides the kernel module for Jool with netfilter API Only.
 
 Package: kmod-keys-encrypted
 Version: 6.6.30-1
@@ -9477,10 +9503,10 @@ Provides: kmod-rtl8812au
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 784632
+Installed-Size: 784631
 Filename: kmod-rtl8812au-ct_6.6.30+2022-10-26-9b2b203a-1_aarch64_generic.ipk
-Size: 734499
-SHA256sum: 9d84760701d6b3088bd2e6b2cd236c0da895b924bbdc61c9072de88160d56b59
+Size: 734636
+SHA256sum: e1fcf054a5e19ea76b51ade164dce7103602d0286d296c401a5353f0dbeb7f5c
 Description:  Driver for Realtek 8812 AU devices comfast 912-ac, etc
 
 Package: kmod-rtl8821ae
@@ -13313,6 +13339,18 @@ Filename: perf_6.6.30-6_aarch64_generic.ipk
 Size: 962856
 SHA256sum: 00ec039cb6aaf0f4c65ed30c248693fd86b5675612743ee8e8b2ddc0acb916ca
 Description:  perf is the Linux performance monitoring tool
+
+Package: qosify
+Version: 2023-03-07-9a47ea4b-1
+Depends: libc, libbpf1, libubox20230523, libubus20230605, libnl-tiny1, kmod-sched-cake, kmod-sched-bpf, kmod-ifb, tc
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 26483
+Filename: qosify_2023-03-07-9a47ea4b-1_aarch64_generic.ipk
+Size: 26911
+SHA256sum: 4345215cba2ec6ab21b4fe7f73e2864b4c7448b5b3929c7595701494985a3f0a
+Description:  A simple QoS solution based eBPF + CAKE
 
 Package: r8152-firmware
 Version: 20240220-1
