@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47873
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48881
-SHA256sum: aa7f095c89b754e5d16c18b1bbf8b192fbe0df7f1698a7ec49aa44162dd35ce0
+Size: 48880
+SHA256sum: c9a4471b5ea171ca8c1473a692e6796a4b5bcf398c59b88e3d043ab5e673f521
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -5203,6 +5203,42 @@ Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  - xfrm_ipcomp
  - xfrm_user
 
+Package: kmod-ipt-account
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 9723
+Filename: kmod-ipt-account_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 10509
+SHA256sum: a0f33790a8202e838a6d114b7f2ae85e4ccd30a495207cd7b6eeab2d4445f563
+Description:  ACCOUNT netfilter module
+
+Package: kmod-ipt-asn
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 4587
+Filename: kmod-ipt-asn_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 5382
+SHA256sum: e8743da7c3411adb89af59a68a9685b564f240bee5c1d366deea0e40f09baea7
+Description:  asn netfilter module
+
+Package: kmod-ipt-chaos
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-delude, kmod-ipt-tarpit
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 3715
+Filename: kmod-ipt-chaos_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 4546
+SHA256sum: 16ec5046a5a63bde170343a03908c155c99c7d3f8b12c2c5c7a415dd2d5eebfe
+Description:  CHAOS netfilter module
+
 Package: kmod-ipt-checksum
 Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
@@ -5258,6 +5294,30 @@ Description:  Netfilter (IPv4-only) module for CLUSTERIP
  To use it also enable iptables-mod-clusterip
  
  see `iptables -j CLUSTERIP --help` for more information.
+
+Package: kmod-ipt-compat-xtables
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ip6tables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 1146
+Filename: kmod-ipt-compat-xtables_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 1980
+SHA256sum: 0fd94a7802cdb14a0a105ce3fb63f38f0d83a9fdf4ffb9f701adfba91d362d03
+Description:  API compatibilty layer netfilter module
+
+Package: kmod-ipt-condition
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 4472
+Filename: kmod-ipt-condition_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 5221
+SHA256sum: 99fd43dca3ad126762a0396c7f6fe49782c96d2f392239a4d96a5f30fd91cef6
+Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
 Version: 6.6.30-1
@@ -5355,6 +5415,42 @@ Description:  Netfilter modules for debugging/development of the firewall
  Includes:
  - TRACE
 
+Package: kmod-ipt-delude
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2890
+Filename: kmod-ipt-delude_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 3708
+SHA256sum: a0c897e6ea4a568210cfe4b1bfee7f0cc74e936d601d3f8570b716c47e2e3cef
+Description:  DELUDE netfilter module
+
+Package: kmod-ipt-dhcpmac
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 3226
+Filename: kmod-ipt-dhcpmac_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 4042
+SHA256sum: 46b1364e9a33eda8c44e5424ad8fced0887b945b1de8cf7ed1f80c5249b1b0d9
+Description:  DHCPMAC netfilter module
+
+Package: kmod-ipt-dnetmap
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-nat
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 1129
+Filename: kmod-ipt-dnetmap_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 1965
+SHA256sum: c4f7c303605f6bac19b024228192096ff3736ed660c2c07cd7731b2b11b796ac
+Description:  DNETMAP netfilter module
+
 Package: kmod-ipt-extra
 Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
@@ -5387,6 +5483,30 @@ Description:  Netfilter (IPv4) kernel modules for packet content inspection
  - string
  - bpf
 
+Package: kmod-ipt-fuzzy
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2447
+Filename: kmod-ipt-fuzzy_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 3234
+SHA256sum: 60e4f6d2aa1c515951b2276313617f98ab407c67ebdd0042e9038892304eaf0a
+Description:  fuzzy netfilter module
+
+Package: kmod-ipt-geoip
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 4640
+Filename: kmod-ipt-geoip_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 5427
+SHA256sum: c045da1965fb4e00e85e443a0406d691a50582200bad41162a6d83f2434562e3
+Description:  geoip netfilter module
+
 Package: kmod-ipt-hashlimit
 Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
@@ -5398,6 +5518,30 @@ Filename: kmod-ipt-hashlimit_6.6.30-1_aarch64_generic.ipk
 Size: 12021
 SHA256sum: c5a586d0aef8b61ab819dc3a062387fc8f29b9a477843d30283e8af6dff72183
 Description:  Kernel modules support for the hashlimit bucket match module
+
+Package: kmod-ipt-iface
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2667
+Filename: kmod-ipt-iface_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 3460
+SHA256sum: 6b44ab5e820e11d5cdda94a9d041c294cd6bb77387017e108e5e6446caa72974
+Description:  iface netfilter module
+
+Package: kmod-ipt-ipmark
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2181
+Filename: kmod-ipt-ipmark_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 2976
+SHA256sum: a9231ed5e407429715eecbebf61e441eb4f39bee27266439f399e25fb856ac13
+Description:  IPMARK netfilter module
 
 Package: kmod-ipt-ipopt
 Version: 6.6.30-1
@@ -5422,6 +5566,18 @@ Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  - time
  - ttl/TTL
  - unclean
+
+Package: kmod-ipt-ipp2p
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 7345
+Filename: kmod-ipt-ipp2p_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 8171
+SHA256sum: b3848da0d75b0a9554b820fe5029c846af64377867138d8ca7a0d398236aba7a
+Description:  IPP2P netfilter module
 
 Package: kmod-ipt-iprange
 Version: 6.6.30-1
@@ -5465,6 +5621,18 @@ Size: 331682
 SHA256sum: d9a87ed222dee6a81925997ce4684e8a91e1f91b1f8d32f3f33b234e37ca4ae0
 Description:  IPset netfilter modules
 
+Package: kmod-ipt-ipv4options
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2020
+Filename: kmod-ipt-ipv4options_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 2813
+SHA256sum: 2e3b7ab03cfe92fa0122a37a0babbb13402f17aef212cb2f7fcf81b2ca0ca3e7
+Description:  ipv4options netfilter module
+
 Package: kmod-ipt-led
 Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
@@ -5476,6 +5644,42 @@ Filename: kmod-ipt-led_6.6.30-1_aarch64_generic.ipk
 Size: 4001
 SHA256sum: b8d304d039d800abeccd7b28f4010cb7a4590f53c5c326421034081a4ba1616e
 Description:  Netfilter target to trigger a LED when a network packet is matched.
+
+Package: kmod-ipt-length2
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 3610
+Filename: kmod-ipt-length2_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 4430
+SHA256sum: e4e4728e9d8fb1ece1f28e6f931d593d647fdc390860436058b7ed9935d71701
+Description:  length2 netfilter module
+
+Package: kmod-ipt-logmark
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2958
+Filename: kmod-ipt-logmark_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 3768
+SHA256sum: a7b1220012033063f08c1eaf200f2ee2d196cebeb6c7cb3a40837c647477f6cb
+Description:  LOGMARK netfilter module
+
+Package: kmod-ipt-lscan
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 3730
+Filename: kmod-ipt-lscan_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 4514
+SHA256sum: 7ceefd3d7e2a56e92739b6c89f5fda1ab0cedb0c45fe6877f9914102dbf283ac
+Description:  lscan netfilter module
 
 Package: kmod-ipt-nat-extra
 Version: 6.6.30-1
@@ -5517,6 +5721,18 @@ SHA256sum: 5c35709697e77818e9bb9ba19d88e493ea82dcf4dbaaf84a9d49703b46787945
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
+
+Package: kmod-ipt-nathelper-rtsp
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-conntrack-extra, kmod-ipt-nat
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 11693
+Filename: kmod-ipt-nathelper-rtsp_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 12528
+SHA256sum: 34200bc28336c24edc7b87bd4d3efe780c97a170526b04ab3403c95bce1a58cc
+Description:  RTSP Conntrack and NAT netfilter module
 
 Package: kmod-ipt-nflog
 Version: 6.6.30-1
@@ -5569,6 +5785,42 @@ Filename: kmod-ipt-physdev_6.6.30-1_aarch64_generic.ipk
 Size: 3413
 SHA256sum: 42b6ef6f6d2656a3a885939dd3d01b005d5b1fe617e64079b05e80ce639427c3
 Description:  The iptables physdev kernel module
+
+Package: kmod-ipt-proto
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2937
+Filename: kmod-ipt-proto_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 3726
+SHA256sum: 765ccbbd04738bb707273c712678d7cb7ee27e3068dc048a8684a221c84097c2
+Description:  PROTO netfilter module
+
+Package: kmod-ipt-psd
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 4392
+Filename: kmod-ipt-psd_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 5186
+SHA256sum: e8bb976d2a869d3ddff3d276013fbfd50af2e1f627f94f840719de30c056c371
+Description:  psd netfilter module
+
+Package: kmod-ipt-quota2
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 5160
+Filename: kmod-ipt-quota2_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 5915
+SHA256sum: 698ec19329016a5f62444aa6a941ac33590ecf63299f7d6cb7379e3ebecaee50
+Description:  quota2 netfilter module
 
 Package: kmod-ipt-raw6
 Version: 6.6.30-1
@@ -5630,6 +5882,30 @@ Filename: kmod-ipt-socket_6.6.30-1_aarch64_generic.ipk
 Size: 4391
 SHA256sum: 05cd310de5796106c8bda140bbf6f2cb725bda842f8359b9c94904ac3e3a654b
 Description:  Kernel modules for socket matching
+
+Package: kmod-ipt-sysrq
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-crypto-hash
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 5484
+Filename: kmod-ipt-sysrq_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 6254
+SHA256sum: ef591bfe50b24afba6469d479888a16894779d9be5eb8a1f575ca4b0ac6ba703
+Description:  SYSRQ netfilter module
+
+Package: kmod-ipt-tarpit
+Version: 6.6.30+3.24-2
+Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-core, kmod-ipt-compat-xtables
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 5341
+Filename: kmod-ipt-tarpit_6.6.30+3.24-2_aarch64_generic.ipk
+Size: 6151
+SHA256sum: 0adafef7db441ef74e5536dcba8d07c166e0e30c98996e934cef074ef85e4160
+Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
 Version: 6.6.30-1
@@ -7931,10 +8207,10 @@ Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-nft-core, kmo
 Provides: nft-fullcone
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 13826
+Installed-Size: 13828
 Filename: kmod-nft-fullcone_6.6.30-1_aarch64_generic.ipk
-Size: 14553
-SHA256sum: b4e391ac62cc56e4a2cddb2b6a49cb4ffed4d56a6dd5814696aa25974c532faf
+Size: 14550
+SHA256sum: c5bf3d7a4ae8552902901551ad38f0ae0b6f384fb27178215a2852fbe2df2e49
 Description:  Netfilter nf_tables fullcone expression support
 
 Package: kmod-nft-nat
@@ -10151,10 +10427,10 @@ Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-conntrack
 Conflicts: kmod-shortcut-fe-drv
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 10135
+Installed-Size: 10134
 Filename: kmod-shortcut-fe-cm_6.6.30-8_aarch64_generic.ipk
-Size: 10844
-SHA256sum: cf7faebd3b73a29357159a452e70b76f3954f83047fde76deabbf5189f1ef1e3
+Size: 10839
+SHA256sum: c9e6beac6fbfbeb3ed8f7cbe2c4ddb796bb6beff10be64434bcca12bd191771d
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -10163,10 +10439,10 @@ Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-nf-conntrack
 Provides: shortcut-fe
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 35767
+Installed-Size: 35765
 Filename: kmod-shortcut-fe_6.6.30-8_aarch64_generic.ipk
-Size: 36408
-SHA256sum: 0ac7313a37e08f8c8dcd86d98926974b0d8e85757125553aa563db24930190cc
+Size: 36403
+SHA256sum: 95ad320f9d9e2f6949b6e6db5f7608c165ff972e3656a227ab5a22d73328eefd
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
