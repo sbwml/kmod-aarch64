@@ -62,18 +62,18 @@ SHA256sum: 421cf244e504db9aefada438424d704544d7af96b0cc7312b5b1bd0e2d8f783a
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-arm
-Version: 15
+Version: 16
 Depends: libc
 Source: package/new/autocore
 SourceName: autocore-arm
 Section: opt
-SourceDateEpoch: 1712439975
+SourceDateEpoch: 1715320727
 Maintainer: CN_SZTL
 Architecture: aarch64_generic
-Installed-Size: 7262
-Filename: autocore-arm_15_aarch64_generic.ipk
-Size: 7999
-SHA256sum: ccd671052d85c0d341bb3270c72cdd27919337fae6fa45795ea46fc6e60c423d
+Installed-Size: 7269
+Filename: autocore-arm_16_aarch64_generic.ipk
+Size: 7994
+SHA256sum: 809fb5b98533284736f1acf26a06879a41d56d8def70b18439d2cb3d792b1136
 Description:  ARM auto core script.
 
 Package: base-files
@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 47875
+Installed-Size: 47876
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48882
-SHA256sum: 22fbe209230fcee38c6de47697b3d8f2f1b81827351135313a3a60535da6b667
+Size: 48887
+SHA256sum: d1e5cc0755b93a9f1b2fa7d5a0fca177f7cfcdfff42282cc4f14cad37ef081d3
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -6056,10 +6056,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 50992
+Installed-Size: 50994
 Filename: kmod-ikconfig_6.6.30-1_aarch64_generic.ipk
-Size: 51862
-SHA256sum: cdf9478678a5d63b0c39c7482316d4f9408ba30ff4b2564ef0c1cd84ef3c8cde
+Size: 51858
+SHA256sum: 08c38b9dea6a3d7e973860540f7c7ef5a44abf9a47a866cc1bcc9287a9d46a19
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -10840,10 +10840,10 @@ SourceName: kmod-oaf
 Section: Derry Apps
 SourceDateEpoch: 1715262037
 Architecture: aarch64_generic
-Installed-Size: 464663
+Installed-Size: 464671
 Filename: kmod-oaf_6.6.30-1_aarch64_generic.ipk
-Size: 460948
-SHA256sum: 60c5bd0ebd282e9f54942061c8b6ef4a2cfb46772ce5e87eda64ae6101131c18
+Size: 460992
+SHA256sum: 9d2c3eaea5b760d9bbae8afd5922b94f73da540316d47b4ecbb7466406e7541d
 Description:  open appfilter kernel module 
 
 Package: kmod-of-mdio
@@ -16994,8 +16994,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
 Installed-Size: 86451
 Filename: libxdp129_1.2.9-1_aarch64_generic.ipk
-Size: 86428
-SHA256sum: d6ba61f07f11df76f8d9bb8c5a194ab5a47c691a69563318ad1906aa2a675c8d
+Size: 86437
+SHA256sum: 6fc59441699f9eaa2a50fd82c04db686cd95bafa181555ce54bae4817842afbf
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -17514,10 +17514,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43632
+Installed-Size: 43633
 Filename: xdp-filter_1.2.9-1_aarch64_generic.ipk
 Size: 44355
-SHA256sum: d2b7907d0362b75c8233eeaf91c13c1a0b048148ee2b2d87e2cb81475fbc48bb
+SHA256sum: e57bce8b6dea0afdd9b2d050282d37545d28a11a020f88161536f3f3b3b98a06
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -17533,10 +17533,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 35217
+Installed-Size: 35218
 Filename: xdp-loader_1.2.9-1_aarch64_generic.ipk
-Size: 35887
-SHA256sum: 1fbd7854d22bae02d1663bffbc1764b325c608f437f36caadf0d65cac106072a
+Size: 35916
+SHA256sum: a88d840c3a664970cb1759bfcd0c7ca4025ebfb1a5b31b9b1caa044966fca6ab
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -17551,10 +17551,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43454
+Installed-Size: 43455
 Filename: xdpdump_1.2.9-1_aarch64_generic.ipk
-Size: 44004
-SHA256sum: 764de4369ed6d513132e4a9c5aeb0e6d9ac7de06bb8b64143406354463dda4f5
+Size: 44002
+SHA256sum: d92d6148636c65cc7d645b0fbdc53c54cfe2d256e72bae688a1e42b4cf365a3e
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
