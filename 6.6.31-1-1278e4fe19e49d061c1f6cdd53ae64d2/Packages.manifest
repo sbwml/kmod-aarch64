@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 47876
+Installed-Size: 47875
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48888
-SHA256sum: 8a2399388cb089cd69edd3bee880c38c3750a003c5ac87450e4e37c74f8c04a5
+Size: 48885
+SHA256sum: 4a71a9f6d4f071396e1d4acb3a26abd9b49bd677971b20c50929cc0e4be7dc4a
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -1673,10 +1673,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 56218
+Installed-Size: 56217
 Filename: kmod-ax25_6.6.31-1_aarch64_generic.ipk
-Size: 56609
-SHA256sum: a1d795794e985c62623cd78eb808922135fa4e1f10ccf5aa7629d19e127ee4d8
+Size: 56622
+SHA256sum: 44b8e96eb851cd7f9c664d71b18631429f2a0130ae2f70bf9335778a08b9ce18
 Description:  Kernel modules for AX25 support
 
 Package: kmod-b43
@@ -1860,10 +1860,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 424723
+Installed-Size: 424747
 Filename: kmod-bnx2x_6.6.31-1_aarch64_generic.ipk
-Size: 414264
-SHA256sum: 9e2d20da6a2c21b086249407247e80ee7887220f65a85ce7a662dcb9cae749d3
+Size: 414359
+SHA256sum: 100ce5a89a76bd0612ad318be729c0680592883696d53eba086a1af1fe880e66
 Description:  QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver
 
 Package: kmod-bonding
@@ -2313,10 +2313,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 518064
+Installed-Size: 518052
 Filename: kmod-cfg80211_6.6.31+6.6.15-1_aarch64_generic.ipk
-Size: 483140
-SHA256sum: a1e55bdcf225e5c81f59f66edd0247ed84572c037850103ef0a3730e85ebddff
+Size: 483464
+SHA256sum: ea2ea43a9df5c456377eaadcb5c3e333c4398924a6c1a0f18c69bf245f9e6233
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -5438,10 +5438,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 288466
+Installed-Size: 288464
 Filename: kmod-i40e_6.6.31-1_aarch64_generic.ipk
-Size: 283971
-SHA256sum: 1973c4b7c47e4fd57eb763acab245dc0bf825f63e36488dd93f5f95e3334b9f1
+Size: 284017
+SHA256sum: 709f5640f5b7bec0b2fdf2726d1b3b44c7b42b67658f95732ca91075fb996aeb
 Description:  Kernel modules for Intel(R) Ethernet Controller XL710 Family 40 Gigabit Ethernet adapters.
 
 Package: kmod-i6300esb-wdt
@@ -5469,10 +5469,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 92876
+Installed-Size: 92879
 Filename: kmod-iavf_6.6.31-1_aarch64_generic.ipk
-Size: 92600
-SHA256sum: 73f76e4e58d6c25440e4277905019148188a2b0608820283669c6e05ae9b36e7
+Size: 92624
+SHA256sum: 97946edced89f9e1adb68e8ca01f3c41cc2e5556813552abfd8eaf1130f4626a
 Description:  Kernel modules for Intel XL710,
  X710, X722, XXV710, and all devices advertising support for
  Intel Ethernet Adaptive Virtual Function devices.
@@ -6056,10 +6056,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 50987
+Installed-Size: 50984
 Filename: kmod-ikconfig_6.6.31-1_aarch64_generic.ipk
 Size: 51855
-SHA256sum: 227654e249450a5f07575f69a38a95f0b6b7bbeeac896a7870f6e69e23a4b0ff
+SHA256sum: dd957a008043e79780a2e93e01cdf75c73d6c1146f22edfb6bd1e4c43bd5929b
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -7581,10 +7581,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 192305
+Installed-Size: 192304
 Filename: kmod-ixgbe_6.6.31-1_aarch64_generic.ipk
-Size: 188863
-SHA256sum: 6bf74d0c388b54109b3bf399bcd9a143f6df53b9d2617728c04a86dfc76c3076
+Size: 188891
+SHA256sum: 60b99edcdeb31204e35215cab296585c8da7bb59644c1b4455f1129e07341c6d
 Description:  Kernel modules for Intel(R) 82598/82599 PCI-Express 10 Gigabit Ethernet adapters.
 
 Package: kmod-ixgbevf
@@ -8323,10 +8323,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 705993
+Installed-Size: 705996
 Filename: kmod-mac80211_6.6.31+6.6.15-1_aarch64_generic.ipk
-Size: 671531
-SHA256sum: efd94226401c133cfe11991664d241c0725882f243ebebde443cefee392248e8
+Size: 671423
+SHA256sum: e5938780ecf83a37034917cba4ebf5b7cf8999f66cf4c4decc0e8a2010be31ab
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -8692,10 +8692,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 296250
+Installed-Size: 296222
 Filename: kmod-mlx4-core_6.6.31-1_aarch64_generic.ipk
-Size: 294134
-SHA256sum: c3b9eceac8fbd01fa7c609cb4d6c3b988bc3932fa42e865ed9e5f19ba512d6c4
+Size: 294107
+SHA256sum: 170a8494517022ea80a68c0f985b388e99d771776a923bb553d601d50c8b8c92
 Description:  Supports Mellanox ConnectX-3 series and previous cards
 
 Package: kmod-mlx5-core
@@ -10840,10 +10840,10 @@ SourceName: kmod-oaf
 Section: Derry Apps
 SourceDateEpoch: 1715262037
 Architecture: aarch64_generic
-Installed-Size: 464689
+Installed-Size: 464718
 Filename: kmod-oaf_6.6.31-1_aarch64_generic.ipk
-Size: 461054
-SHA256sum: e79a76065d036fff05ab6c89e7f9b6bed546b634ab983a4bc3ce5098a893e444
+Size: 461038
+SHA256sum: 126c4f42444399c59d41d5438614c363d5b565e39094f5fb8d498c82d30c58b3
 Description:  open appfilter kernel module 
 
 Package: kmod-of-mdio
@@ -12268,10 +12268,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 379921
+Installed-Size: 379942
 Filename: kmod-rtl8723bs_6.6.31+6.6.15-1_aarch64_generic.ipk
-Size: 374974
-SHA256sum: 9b9440e1276d4bd905179053c984a83e24bf1091ebc8badbcc93c5fd55d5bd8c
+Size: 374993
+SHA256sum: a97d68efc99152aad367047262b79f8ea9e564682736a5c20931a6f93751fe12
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
@@ -12285,10 +12285,10 @@ License: GPLv2
 Section: kernel
 SourceDateEpoch: 1714807128
 Architecture: aarch64_generic
-Installed-Size: 1312740
+Installed-Size: 1312733
 Filename: kmod-rtl8812au-ac_6.6.31+2023-07-23-04f600ee-1_aarch64_generic.ipk
-Size: 1224176
-SHA256sum: 11eda1fbb322c45f88c4edc073491a5bd55498d73ecc2f18376171cefa34845c
+Size: 1224240
+SHA256sum: f71b67d7a090ed6c07a9598613156039365d63aee2ed86efdafd1484321d3f6f
 Description:  Realtek rtl8812au/21au and rtl8814au driver
 
 Package: kmod-rtl8812au-ct
@@ -12302,10 +12302,10 @@ Section: kernel
 SourceDateEpoch: 1715003179
 Maintainer: Ben Greear <greearb@candelatech.com>
 Architecture: aarch64_generic
-Installed-Size: 787358
+Installed-Size: 787393
 Filename: kmod-rtl8812au-ct_6.6.31+2022-10-26-9b2b203a-1_aarch64_generic.ipk
-Size: 736718
-SHA256sum: 69bb24effdc38cdb4b170d224713a041e6a623c7977245ef8a06f8f75e99c52f
+Size: 737045
+SHA256sum: 6516aeb5cefe5e269327d430e2189b280acaab7d39de4ad231299652a826f413
 Description:  Driver for Realtek 8812 AU devices comfast 912-ac, etc
 
 Package: kmod-rtl8821ae
@@ -12412,10 +12412,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 91590
+Installed-Size: 91594
 Filename: kmod-rtlwifi_6.6.31+6.6.15-1_aarch64_generic.ipk
-Size: 91931
-SHA256sum: 90e7416e8fca19b67c33b18a5cee777dc84d806170d05ecb0006b36ce1492a8b
+Size: 91937
+SHA256sum: 47c555ea37289e7f16a920924365f12ea5e5fe6d46090cf3b7cb226ba671f61e
 Description:  Realtek common driver part
 
 Package: kmod-rtw88-8723d
@@ -16992,10 +16992,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 129
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 86451
+Installed-Size: 86450
 Filename: libxdp129_1.2.9-1_aarch64_generic.ipk
-Size: 86437
-SHA256sum: 6fc59441699f9eaa2a50fd82c04db686cd95bafa181555ce54bae4817842afbf
+Size: 86489
+SHA256sum: fc3fac24a07d45e0412edd6f903d6cf280ced0b693cd4d20cce6e2d9eae29355
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -17514,10 +17514,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43633
+Installed-Size: 43630
 Filename: xdp-filter_1.2.9-1_aarch64_generic.ipk
-Size: 44355
-SHA256sum: e57bce8b6dea0afdd9b2d050282d37545d28a11a020f88161536f3f3b3b98a06
+Size: 44356
+SHA256sum: 72cff9976876a742966417e19f85fb591f026b1dd3ce006958be704bab38d479
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -17533,10 +17533,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 35218
+Installed-Size: 35215
 Filename: xdp-loader_1.2.9-1_aarch64_generic.ipk
-Size: 35916
-SHA256sum: a88d840c3a664970cb1759bfcd0c7ca4025ebfb1a5b31b9b1caa044966fca6ab
+Size: 35912
+SHA256sum: 8c938b713b664de7d5375ad3b004ff8dd840e74ed2fe83dcb2188ccffba9536f
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -17551,10 +17551,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43455
+Installed-Size: 43453
 Filename: xdpdump_1.2.9-1_aarch64_generic.ipk
-Size: 44002
-SHA256sum: d92d6148636c65cc7d645b0fbdc53c54cfe2d256e72bae688a1e42b4cf365a3e
+Size: 44009
+SHA256sum: 30b8a01e9daad8a2c838b628840fa79305a680658044404b9882c652d94cf85a
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
