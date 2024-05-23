@@ -66,7 +66,7 @@ Architecture: aarch64_generic
 Installed-Size: 47875
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
 Size: 48885
-SHA256sum: 4a71a9f6d4f071396e1d4acb3a26abd9b49bd677971b20c50929cc0e4be7dc4a
+SHA256sum: 1f882b8d0aca594dd290d3bf7576643637a92a582c7a01b13eba66f191fa57fb
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -7107,51 +7107,51 @@ SHA256sum: b9552b42b48ae2b49e3265a31cad3387e2ab71c7ab48c92793b2d734d942481a
 Description:  MRF24J40 transceiver driver
 
 Package: kmod-mt76-connac
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 63324
-Filename: kmod-mt76-connac_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 63987
-SHA256sum: cdc0f67781fd3a3ff8a4fe118d32dd06f758580f8056d70f0faf10ef7f639b6f
+Installed-Size: 66180
+Filename: kmod-mt76-connac_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 66810
+SHA256sum: 024eaf13835bffe0e09d95e894002e924672596ccc359019b0000333319ca66f
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 79542
-Filename: kmod-mt76-core_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 79551
-SHA256sum: 7c5a9a05fcb7a5fdf0f79a9d7031865abd4c257fb089d448a97a9e9a58c5500c
+Installed-Size: 79593
+Filename: kmod-mt76-core_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 79545
+SHA256sum: ad8241b180a4acac2a2acc637f3a5504f36057f0054fa93147258f03b90bd1d2
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mmc
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 24872
-Filename: kmod-mt76-sdio_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 25655
-SHA256sum: 9cd1345a5344f74bd66c953184b78cd5543850360bbf1efaca358bf2e3e74b66
+Installed-Size: 24876
+Filename: kmod-mt76-sdio_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 25662
+SHA256sum: 99f5ebc2c47a3d5ff0f97af14c2a860931c0cb3aa103286efe1dd9ea8093b8ea
 Description:  MediaTek MT7615/MT79xx SDIO driver common code
 
 Package: kmod-mt76-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-usb-core, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 31098
-Filename: kmod-mt76-usb_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 31822
-SHA256sum: b3e78def24426a8663768a42062ece1fddcec514826fcf8a1271a1dc0d831c32
+Installed-Size: 31108
+Filename: kmod-mt76-usb_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 31831
+SHA256sum: 5a9666e2990184406e664871d1335c8b93db1aaf783a266253ca61edd951e432
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
@@ -7166,423 +7166,423 @@ SHA256sum: 4d0c3200ba9e7273ab991feb81b94f9947dced58891721446cc3b5ee5570d30a
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mt7603
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 133127
-Filename: kmod-mt7603_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 133786
-SHA256sum: cc533540d1612cfd98c021ecabed46c3dc01e6b6dd5ae1014c1adccca2d05a22
+Installed-Size: 133144
+Filename: kmod-mt7603_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 133797
+SHA256sum: 363204d664f386b990fc37a315f26d0a439aee5d5ae9f18a60d0fcb45a6bea40
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mt76-connac, kmod-hwmon-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 95630
-Filename: kmod-mt7615-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 95589
-SHA256sum: 82982e3420f5f7955d739e66ebd8cd0d07794c913620325889cdbadecae24f82
+Installed-Size: 95694
+Filename: kmod-mt7615-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 95634
+SHA256sum: 8046b121da6f1d104a653e3208acc17433cf0ad7e03557c656031b5308cff9cd
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615e
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 551542
-Filename: kmod-mt7615-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
+Filename: kmod-mt7615-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
 Size: 552425
-SHA256sum: 1503e8f855d380aed4823724464c8c92c5512111a27919087f04c4605bad2e29
+SHA256sum: 049bdde5dc564ca2bbdd0b13133beb951c6ea08311740638674a6dc8e7fdac7a
 Description:  MediaTek MT7615e firmware
 
 Package: kmod-mt7615e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 34124
-Filename: kmod-mt7615e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 34952
-SHA256sum: 73adaa0cb507f1c4cc6e61477a1b8a51984ca3b6d580e92ffdc19e73ce33a212
+Installed-Size: 33938
+Filename: kmod-mt7615e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 34746
+SHA256sum: 16445e04722b3d7660b4d9d7296494467de98ecb16f85be1a968f8a7eb4dfcc1
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt7622-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615e
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 332330
-Filename: kmod-mt7622-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 333204
-SHA256sum: 37b9d64379c33a0f78063564a421f15ec553b59b5606616b93cf31b84ee4136a
+Filename: kmod-mt7622-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 333203
+SHA256sum: 30cf4cbd25603a874181f67d3447b531b288500a96baf2a9a788ad572b56b87a
 Description:  MediaTek MT7622 firmware
 
 Package: kmod-mt7663-firmware-ap
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 460350
-Filename: kmod-mt7663-firmware-ap_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 461141
-SHA256sum: ac55a2cfe6c8e15c2ea52794f6282ff82de17828e6c34c0732a1db9b83781ba7
+Filename: kmod-mt7663-firmware-ap_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 461140
+SHA256sum: 5b65dcfe490f46e399dc35dc7552e6e745ed42960c39ff9b5adfb2508427a9b0
 Description:  MediaTek MT7663e firmware (optimized for AP)
 
 Package: kmod-mt7663-firmware-sta
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 564545
-Filename: kmod-mt7663-firmware-sta_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 564972
-SHA256sum: 3a27ea717b1694b760388672a6314d0312f9ee7b117ff83ad6b5fb568f9276e1
+Filename: kmod-mt7663-firmware-sta_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 564973
+SHA256sum: 3478e2be319bfb6f94897873162e9c8ef9ca2200029ece761a6368699a5e4664
 Description:  MediaTek MT7663e firmware (client mode offload)
 
 Package: kmod-mt7663-usb-sdio
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 25947
-Filename: kmod-mt7663-usb-sdio_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 26695
-SHA256sum: 891f6f93b07e412dbeb26bfe347c63a66ffa1bf6adff4f3bd89ab9234d18c5e8
+Installed-Size: 25954
+Filename: kmod-mt7663-usb-sdio_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 26698
+SHA256sum: d2b4947cc9a54c2a197e6c3a764743366d1e5783d13bb87e9d335684af9050ae
 Description:  MediaTek MT7663 USB/SDIO shared code
 
 Package: kmod-mt7663s
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-sdio, kmod-mt7615-common, kmod-mt7663-usb-sdio
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 26343
-Filename: kmod-mt7663s_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 27106
-SHA256sum: 9396639e50caad548c724efab5b0183c229b1ae7301ba9ad7394a87c7aa0bd28
+Installed-Size: 26349
+Filename: kmod-mt7663s_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 27117
+SHA256sum: 9719f77e9976b8d1ceb852c47451797392de9ea8a9cd6d3edde5bd67525b0d48
 Description:  MediaTek MT7663s wireless driver
 
 Package: kmod-mt7663u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-usb, kmod-mt7615-common, kmod-mt7663-usb-sdio
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 26018
-Filename: kmod-mt7663u_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 26769
-SHA256sum: 90d2852c86801412a7d15b81367b21d24a53e1c7bd1e6eba1ff5b932868f30dd
+Installed-Size: 26026
+Filename: kmod-mt7663u_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 26775
+SHA256sum: 1651b2172f8d6fc8d6b94191d2b812d1b6c43213ffdc7973bb11afc654a96677
 Description:  MediaTek MT7663u wireless driver
 
 Package: kmod-mt76
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mt76-core, kmod-mt76x2, kmod-mt7603
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 97
-Filename: kmod-mt76_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 891
-SHA256sum: 6c63937819159e14a95a0f9265dcde5a17932a16c454639299578737314f39fb
+Filename: kmod-mt76_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 890
+SHA256sum: 3a4c90beddf1f47091a2413b2a04af1dd096dcf342a8af4217266e77422d52e0
 Description:  MediaTek MT76x2/MT7603 wireless driver (metapackage)
 
 Package: kmod-mt76x0-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x02-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 82195
-Filename: kmod-mt76x0-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 82799
-SHA256sum: 2e50b9463986b607f0ebe40a289660fb429d20fb133492b8f8fe2ece1275f650
+Installed-Size: 82209
+Filename: kmod-mt76x0-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 82803
+SHA256sum: 763dee2edb693efe950c67d9cf6229df02594628fbf4279fdbefb9d0ab326b15
 Description:  MediaTek MT76x0 wireless driver common code
 
 Package: kmod-mt76x02-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 62312
-Filename: kmod-mt76x02-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 62966
-SHA256sum: 5217005d520076d32f77b93ccc26acb2f2e1aed4793420d9b02b536a2f069742
+Installed-Size: 62315
+Filename: kmod-mt76x02-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 62978
+SHA256sum: 58f01bb81456d7c12a7b8f9200a34afb2b2165af5174d1c41bb5e80960612eec
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-usb, kmod-mt76x02-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 23285
-Filename: kmod-mt76x02-usb_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 24086
-SHA256sum: 49b3e528abcd618a3963aee6a24cbe0d281eefe4bf41ba854a622b7fc0b9bed6
+Installed-Size: 23289
+Filename: kmod-mt76x02-usb_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 24099
+SHA256sum: fe7cf496198d33ff3e89fc4f694aa30a846dd50b32961147e636ebddfba082ac
 Description:  MediaTek MT76x0/MT76x2 USB wireless driver common code
 
 Package: kmod-mt76x0e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x0-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 27356
-Filename: kmod-mt76x0e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 28138
-SHA256sum: 02ea5ee0c090e92451212852c2c5a9e2eefcb2008ff4046660abfef9e20fd5b2
+Installed-Size: 27364
+Filename: kmod-mt76x0e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 28147
+SHA256sum: b662d15dda3f639090821d0e2dae8527b0787eaeb4e5bdbdcbe41e088574e637
 Description:  MediaTek MT76x0E wireless driver
 
 Package: kmod-mt76x0u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x0-common, kmod-mt76x02-usb
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 26263
-Filename: kmod-mt76x0u_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 27042
-SHA256sum: 3f252e79cea2039e9646e7a30fcddc6dbacb78e62d8c7a3a20745506072dbee5
+Installed-Size: 26271
+Filename: kmod-mt76x0u_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 27059
+SHA256sum: e7d54d1d0866d5b4c36934b89f460c2591d3cbc8a5394900ad9ce90d9079d79a
 Description:  MediaTek MT76x0U wireless driver
 
 Package: kmod-mt76x2-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mt76x02-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 97603
-Filename: kmod-mt76x2-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 98462
-SHA256sum: 7f8eb3e431d7a772a78524589081bfe64c42b3847efe9dd6a2bd67bccbe00710
+Installed-Size: 97605
+Filename: kmod-mt76x2-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 98451
+SHA256sum: d5d062181bbe7e5d505bd1b541bd754c3377eca9c840d6b7b0195764d8872b29
 Description:  MediaTek MT76x2 wireless driver common code
 
 Package: kmod-mt76x2
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x2-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 32412
-Filename: kmod-mt76x2_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 33228
-SHA256sum: 60273b00eb18270a64c0e84a10e436772c6bde628fb2d1772ae000e678644396
+Installed-Size: 32416
+Filename: kmod-mt76x2_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 33223
+SHA256sum: 2cc15e937f2858ee13985d56e9495d9dfa429386114be7d35176eafd1ba2bf11
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x2-common, kmod-mt76x02-usb
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 31493
-Filename: kmod-mt76x2u_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 32310
-SHA256sum: daf4730753c9014c458d62ee6fca8fbf8c0f8b7f05befb78e9b83bd42031a6fa
+Installed-Size: 31509
+Filename: kmod-mt76x2u_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 32320
+SHA256sum: f8d88961c8ba9fb6cf73422e3e8b05909a36a226d4963e13063a2ef8892d3872
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7915e
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 515665
-Filename: kmod-mt7915-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 511932
-SHA256sum: bad10fba0214a1419777ca4a9556752e6d1202bfdfc82a34eeb0aa0c148bb597
+Filename: kmod-mt7915-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 511930
+SHA256sum: bee108004a66a00db1881c6f57c17f73bee9c5d4b4e416c98864debe83b62bcf
 Description:  MediaTek MT7915 firmware
 
 Package: kmod-mt7915e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 130091
-Filename: kmod-mt7915e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 129661
-SHA256sum: 9dee3a39c1e88f3f93e4b41fe5ebaa7c279ed385d82ee4a63498314e9bc8b720
+Installed-Size: 130193
+Filename: kmod-mt7915e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 129762
+SHA256sum: 329d3d2f2f2e055fede1b4ca898075fbdbb2c60567930185693ee21dbe756045
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7915e
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 693571
-Filename: kmod-mt7916-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
+Filename: kmod-mt7916-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
 Size: 689363
-SHA256sum: 05019525485dc73c5fb779b1c2f05eccefe83d5fbb4d33a4d5a4881fda301d7f
+SHA256sum: 7e37171c210b95f67f498f92009a71f0facf17c67a3b9aeacde3ec19339e376c
 Description:  MediaTek MT7916 firmware
 
 Package: kmod-mt7921-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-mt7921-firmware, kmod-hwmon-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 82173
-Filename: kmod-mt7921-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 76600
-SHA256sum: e3cea70e706d96d9922121ff1287cd6f143c427f678708531ff9608b1cfdda54
+Installed-Size: 83135
+Filename: kmod-mt7921-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 77195
+SHA256sum: 81b1199bb4ef7b5e4ca654416d164ac59e8089d6c1eeb74fca1239d09397f03c
 Description:  MediaTek MT7921 wireless driver common code
 
 Package: kmod-mt7921-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 513221
-Filename: kmod-mt7921-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 512400
-SHA256sum: 9cb73731a1a28eaea14133fb7a98466c95c1b3a5fff17a3493786736b58611ad
+Filename: kmod-mt7921-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 512398
+SHA256sum: 3167aef6ed15761f80a52841b1aa5ce4dd564b82bd5659fddc295e2cb0f7e6ae
 Description:  MediaTek MT7921 firmware
 
 Package: kmod-mt7921e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7921-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 29713
-Filename: kmod-mt7921e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 30495
-SHA256sum: 0639905c7e2699eb3febbd54aa34d74e44997176d5a1f01405a7617c1420cf85
+Installed-Size: 29719
+Filename: kmod-mt7921e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 30499
+SHA256sum: 201d3054ccdf56e8dab4c03a3ae0f918725bbb5885800fe4aecc1a4dc6271bd0
 Description:  MediaTek MT7921e wireless driver
 
 Package: kmod-mt7921s
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-sdio, kmod-mt7921-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 28470
-Filename: kmod-mt7921s_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 29239
-SHA256sum: bd55d14507e9839761c0f1a894b8fc5385a9ddd33ae982f856c63b306508c4b3
+Installed-Size: 28476
+Filename: kmod-mt7921s_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 29256
+SHA256sum: eadca1b029067ba02b0f46ad0e727d51f50b84813a92494e3661c685e2b0cc12
 Description:  MediaTek MT7921S wireless driver
 
 Package: kmod-mt7921u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-usb, kmod-mt7921-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 25833
-Filename: kmod-mt7921u_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 26581
-SHA256sum: be445331e6cf83b402c58b2d27cb119b1177c83af004f875dd03fd6b10095a88
+Installed-Size: 25842
+Filename: kmod-mt7921u_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 26597
+SHA256sum: 4d3fd124fffe2aa226a7d51147afb6f3610aeb7b4ddbfa5dfeb7621bcca6afcd
 Description:  MediaTek MT7921U wireless driver
 
 Package: kmod-mt7922-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 1091558
-Filename: kmod-mt7922-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 1092347
-SHA256sum: 768f6b7f8b0ffa910bf0e76e4d9bc6cd16c93ea4166f6ac9bb80733ccfd8a06d
+Filename: kmod-mt7922-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 1092342
+SHA256sum: cfbaace71c1f010fcbf67d489571edfd40b02e6d90d1eca958e33859930d17d3
 Description:  MediaTek MT7922 firmware
 
 Package: kmod-mt7925-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-hwmon-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 84528
-Filename: kmod-mt7925-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 84356
-SHA256sum: a73868b6c93bf3aabbbadaa9ddcf6a3b48ad31de31f8f435c2c3f2cc55e32c16
+Installed-Size: 84569
+Filename: kmod-mt7925-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 84416
+SHA256sum: c1fd7b265915309ee57112f025315d2dcc8b085f1786fcc9558d2f9fc6a8b399
 Description:  MediaTek MT7925 wireless driver common code
 
 Package: kmod-mt7925e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7925-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 29561
-Filename: kmod-mt7925e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 30317
-SHA256sum: 50ca7e87a85f0629429eee84e54d79e946c4f14a85eb165f1c88d43b2dc209c7
+Installed-Size: 29568
+Filename: kmod-mt7925e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 30326
+SHA256sum: 7990340aac207ef820f60262d2fbe5b46985d491d3480a7c3355cacb5e0100d4
 Description:  MediaTek MT7925e wireless driver
 
 Package: kmod-mt7925u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-usb, kmod-mt7925-common
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 25807
-Filename: kmod-mt7925u_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 26560
-SHA256sum: 9bed1e1e12fc180441ef65713bd84423d03b307f6d0e72f6cbb3100ec392d543
+Installed-Size: 25815
+Filename: kmod-mt7925u_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 26570
+SHA256sum: ba688e1ca96a49830c3aab4068ced6a0ffb0fc366e0ea033dc72f7e0c086a505
 Description:  MediaTek MT7925U wireless driver
 
 Package: kmod-mt792x-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 46079
-Filename: kmod-mt792x-common_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 46789
-SHA256sum: 8bb9c3a500c65ca25bfed91dcc0fb1bba8a0e82566c9b6df2a8fcf6e1efd9659
+Installed-Size: 46084
+Filename: kmod-mt792x-common_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 46792
+SHA256sum: 329aaf603a2e022a5b635e1a8a15df4e78de7ecec342f12d734eb7bfdaeea7c6
 Description:  MediaTek MT792x wireless driver common code
 
 Package: kmod-mt792x-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-mt76-usb
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 19290
-Filename: kmod-mt792x-usb_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 20090
-SHA256sum: f9c0628e810c489810f8b21ecda60bf45f488ff89bd847c2006b4a4d1daef8d1
+Installed-Size: 19295
+Filename: kmod-mt792x-usb_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 20096
+SHA256sum: cf997c77f7d900ebac2e17af248f8fd7c187235954ea7688ec96f3a8d8cf8f4e
 Description:  MediaTek MT792x wireless driver USB code
 
 Package: kmod-mt7996-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7996e
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 3303804
-Filename: kmod-mt7996-firmware_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 3305231
-SHA256sum: 15ef5591c80c0642103f63a20745bd20e6627fe90bd9157fba52527420126235
+Filename: kmod-mt7996-firmware_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 3305232
+SHA256sum: 297889db682f7da746727f919b8084c4ae1b28b0519b95e9201db291f18083eb
 Description:  MediaTek MT7996 firmware
 
 Package: kmod-mt7996e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 123374
-Filename: kmod-mt7996e_6.6.31+2024-04-03-1e336a85-1_aarch64_generic.ipk
-Size: 122970
-SHA256sum: 87bdc28552ea3b55f2caa216a216c3780588466c9ceda2f4a303bb19d01bd78c
+Installed-Size: 123401
+Filename: kmod-mt7996e_6.6.31+2024-05-17-513c131c-1_aarch64_generic.ipk
+Size: 123020
+SHA256sum: 12ebef3707e42c7d520543c149ca26e03d26e042491c3a3b2a1f5fcf9d8fdbac
 Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtd-rw
