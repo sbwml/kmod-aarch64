@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 47726
+Installed-Size: 47725
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48727
-SHA256sum: 7826b6b0a8d7be1df57d019868c1ac6c686e8b22671e5038656060e8b8c8842b
+Size: 48728
+SHA256sum: 0379e1d8b626919a4f7a350f1193601c5edc547e4d1875b0c344440d170fa2a3
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -225,10 +225,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 25856
+Installed-Size: 25817
 Filename: comgt_0.32-35_aarch64_generic.ipk
-Size: 26508
-SHA256sum: 5ffe4904603d72530f9c7a15e5d33b3934fe5fceb38b740f92cf945dc772a639
+Size: 26460
+SHA256sum: cefe5a5289044340cd569b7020e55ee894f9d0ba80388c3135c84f123d733490
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -248,7 +248,7 @@ Architecture: aarch64_generic
 Installed-Size: 164505
 Filename: dropbear_2022.82-6_aarch64_generic.ipk
 Size: 165035
-SHA256sum: e2b79956697c602434d55e8fd46420ed431750862ca08bfeba23e9590f47f094
+SHA256sum: c89a6d46fae43387e9e1e300ff35a5f79c3e8e216a7cbe67645e836232e82330
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: dropbearconvert
@@ -17148,10 +17148,10 @@ Section: devel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 965286
+Installed-Size: 965242
 Filename: perf_6.6.34-6_aarch64_generic.ipk
-Size: 964420
-SHA256sum: 303ed7e962fe5533dae26ee3d44c5d49673b54bcf7a0e987e7411b4f7b5fc741
+Size: 964469
+SHA256sum: 034f2b0ab1215ab6290d730087b78f30f44bc761efe275172290aa45aab1a3e0
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -17499,10 +17499,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: aarch64_generic
-Installed-Size: 47033
+Installed-Size: 47087
 Filename: uqmi_2022-10-20-c8c9f105-1_aarch64_generic.ipk
-Size: 47783
-SHA256sum: b1c45d5ded0ae42ee6706e063eeb597aacea52d966c697788544cdbdbe342d49
+Size: 47846
+SHA256sum: 012b7f4edd78ec38f17890b5827ff89021ac62afe60f9b52c9924c2bf1429c85
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
