@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 47727
+Installed-Size: 47726
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48722
-SHA256sum: a9ea2aa6aad5a26ee620c983fc07d1d34118bc6a6579be984ac3237a4620998a
+Size: 48724
+SHA256sum: a62de34cda6b50e065bda3b3bdb108cb27a9b11227883f8e0557cda4cff075e1
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
