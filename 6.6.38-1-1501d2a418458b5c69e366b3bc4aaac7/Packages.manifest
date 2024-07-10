@@ -40,10 +40,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2889
+Installed-Size: 2753
 Filename: arptables-nft_1.8.8-2_aarch64_generic.ipk
-Size: 3580
-SHA256sum: 6f1a7b9dbe3719c6f9ec48f0054e3c0a2d12d76cc1017f7eb5aaa90fde5957ea
+Size: 3555
+SHA256sum: 0ede4c28f2257bb29482ee91dbccf9bd4a62952bf2a5240f3eea8d6c74f850f2
 Description:  ARP firewall administration tool nft
 
 Package: ath9k-htc-firmware
@@ -87,8 +87,8 @@ SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
 Installed-Size: 47726
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48727
-SHA256sum: bb6104c4e0872d731f5532de719d09f31db2667f5578643b7015d9b73341f993
+Size: 48728
+SHA256sum: 67f970636e68c63a34809cedaa89049f8ccfa81de980b04aa02abde7bf5497f6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -101,10 +101,10 @@ Section: base
 SourceDateEpoch: 1711146363
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: aarch64_generic
-Installed-Size: 24948
+Installed-Size: 24262
 Filename: block-mount_2023-02-28-bfe882d5-1_aarch64_generic.ipk
-Size: 25357
-SHA256sum: 7cdf676b21d1c98c3b76b83e7d8b6e9789e1c5fd4ac43e9d674a6de86deb033b
+Size: 24889
+SHA256sum: c6136a1077c1c35b49d016c2fdc484b3d2395cdbce3c1688676c79627266049b
 Description:  Block device mounting and checking
 
 Package: blockd
@@ -117,10 +117,10 @@ Section: base
 SourceDateEpoch: 1711146363
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: aarch64_generic
-Installed-Size: 6933
+Installed-Size: 7012
 Filename: blockd_2023-02-28-bfe882d5-1_aarch64_generic.ipk
-Size: 7654
-SHA256sum: 4877221e2425b2a3b5475dab04a2485037425139a06b249ed4c7b248dd87a65f
+Size: 7765
+SHA256sum: a5eb114948dd550c84536732121bb7a606cd4552cdc77989dfb2f995fb325ad2
 Description:  Block device automounting
 
 Package: bnx2-firmware
@@ -225,10 +225,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 25750
+Installed-Size: 25749
 Filename: comgt_0.32-35_aarch64_generic.ipk
-Size: 26399
-SHA256sum: 4ef04040174b6f66d39ea0d9f8fbf90766766d14a2e91ee46641e269307dd141
+Size: 26396
+SHA256sum: 1648ab0111d5d2b565fc17f3ac6e6bed4b36a7924bbea2f632d9067f48c283da
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -245,10 +245,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: aarch64_generic
-Installed-Size: 164296
+Installed-Size: 164890
 Filename: dropbear_2022.82-6_aarch64_generic.ipk
-Size: 164847
-SHA256sum: 48d582f66bb42f7391e94d71262418d17ca023106825161f85c5d1b1289b9652
+Size: 165392
+SHA256sum: 5eb90351a7b9c54312fb5b0e43ebdfd665e68c7514f772b4382c5243b38d38f9
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: dropbearconvert
@@ -262,10 +262,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: aarch64_generic
-Installed-Size: 31504
+Installed-Size: 31312
 Filename: dropbearconvert_2022.82-6_aarch64_generic.ipk
-Size: 32187
-SHA256sum: cae0b3e97dab3814e39847bb795aac39aa06b9dc64a65116ad4b5a1bfe7fd9cb
+Size: 32041
+SHA256sum: 28f8d234af52f147b797492378ab5b6fed8528723e339dacf8c1dd53bb94205b
 Description:  Utility for converting SSH keys
 
 Package: e100-firmware
@@ -295,10 +295,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 46267
+Installed-Size: 34122
 Filename: ebtables-nft_1.8.8-2_aarch64_generic.ipk
-Size: 44702
-SHA256sum: f7edab7ce7d1d9b38d750b60978129402a0407ece2533603ecedcffd28f54e29
+Size: 34939
+SHA256sum: 4a79bd0ead38cc52712dbb88224fe15f228f3d86dc6a111d7547085657dada06
 Description:  Bridge firewall administration tool nft
 
 Package: edgeport-firmware
@@ -326,10 +326,10 @@ Section: base
 SourceDateEpoch: 1711146363
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: aarch64_generic
-Installed-Size: 19738
+Installed-Size: 18619
 Filename: fstools_2023-02-28-bfe882d5-1_aarch64_generic.ipk
-Size: 20163
-SHA256sum: 7e1a384d6e8ab24536b4e6cf04a1b56570f4723edb6f4a43abb5cca8efdcaa5c
+Size: 19307
+SHA256sum: e831a2457175db8e113e8b8a5cd27ee7e5d7b0d4be9c27e69eb8989e27f6ef2c
 Description:  OpenWrt filesystem tools
 
 Package: fwtool
@@ -342,10 +342,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 5057
+Installed-Size: 4790
 Filename: fwtool_2019-11-12-8f7fe925-1_aarch64_generic.ipk
-Size: 5669
-SHA256sum: b26919752c8450b7a80cdf6e78c42709eae224636f83b8ac77fca20dfdfbef1a
+Size: 5531
+SHA256sum: a382a77d438fd1b323986919f789069c39f0ba40e07740e4188ca63db9ddf2e7
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: ip6tables-extra
@@ -358,10 +358,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 18690
+Installed-Size: 13595
 Filename: ip6tables-extra_1.8.8-2_aarch64_generic.ipk
-Size: 18375
-SHA256sum: 304023e1c80d2896d8967487d7aa35b2f0754da8aecdd9f9247879c15094c329
+Size: 14314
+SHA256sum: 849367123a00821d2c6a7db85b0231ab390c452b061054bed0054eaf32702936
 Description:  iptables header matching modules for IPv6
 
 Package: ip6tables-mod-nat
@@ -374,10 +374,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 3480
+Installed-Size: 1882
 Filename: ip6tables-mod-nat_1.8.8-2_aarch64_generic.ipk
-Size: 3561
-SHA256sum: 305021486c6c14977878087ae048e7621af935488e4ea4d6f2775191d4cdaf1a
+Size: 2637
+SHA256sum: 3c91d5f1fe7fb6b48cec1fd82d8caba6b80d001dc3686916d11e4e4ee42c3a3f
 Description:  iptables extensions for IPv6-NAT targets.
 
 Package: ip6tables-nft
@@ -431,10 +431,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 1533
+Installed-Size: 1427
 Filename: iptables-mod-checksum_1.8.8-2_aarch64_generic.ipk
-Size: 2233
-SHA256sum: d9f8f32ec365d936cd38b9cf4bf8347df01d23950f10aa2aa3cc3a0df2e3c8f5
+Size: 2204
+SHA256sum: 7f39fa58b4b60a2265f05b2b8922c9595e914743d0e4f917f3fa51a07668491a
 Description:  iptables extension for the CHECKSUM calculation target
 
 Package: iptables-mod-cluster
@@ -447,10 +447,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2575
+Installed-Size: 2418
 Filename: iptables-mod-cluster_1.8.8-2_aarch64_generic.ipk
-Size: 3519
-SHA256sum: 2f817c78c8706c98919dca19520280925311959a5de03d81925ac94c6ec4a136
+Size: 3512
+SHA256sum: 9f94b4015eabc4b70d654291d067c0b2b5cf22b0ee32bf83b8434eabccd575f0
 Description:  iptables extensions for matching cluster.
  
  Netfilter (IPv4/IPv6) module for matching cluster
@@ -478,10 +478,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 18922
+Installed-Size: 15483
 Filename: iptables-mod-conntrack-extra_1.8.8-2_aarch64_generic.ipk
-Size: 18863
-SHA256sum: 5403e2957eddda4e8b721e2cf68662e236a5a22292765f23fa1e0d5b9e7666f7
+Size: 16238
+SHA256sum: f14dbab239e343138900ae114d06e50bc95f995ec896f03b7078705be1ceb621
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -505,10 +505,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 15639
+Installed-Size: 12925
 Filename: iptables-mod-extra_1.8.8-2_aarch64_generic.ipk
-Size: 15621
-SHA256sum: e92294cc0497df2ebb03538d2291593d7ffd83aefe9fb7906df3dd784886cac5
+Size: 13697
+SHA256sum: 1bb72cb1caeebe6c6b12b4dd5def0d09ea63b193fcc397c31a81f255c1e5aab2
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -529,10 +529,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 6858
+Installed-Size: 6011
 Filename: iptables-mod-filter_1.8.8-2_aarch64_generic.ipk
-Size: 7385
-SHA256sum: 43b28eaf029b2241a7fd7aa649a5bb2bf50ab4caadf1733c9e66fd3897114552
+Size: 6791
+SHA256sum: fda2fc1571f803245e533140fb9dd5767b6f90b1e0ca5f6409b4f4f8a23bb4de
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -551,10 +551,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 12149
+Installed-Size: 12164
 Filename: iptables-mod-hashlimit_1.8.8-2_aarch64_generic.ipk
-Size: 12853
-SHA256sum: ca9d8f61ba52579c5122afa4635e7c4d62fbcd119999e5fa3d528a5f10dca7f1
+Size: 12939
+SHA256sum: cfa4517893bd58f300df6879d39a2287d1aa0f97b03174c6deb2128f1542ecaa
 Description:  iptables extensions for hashlimit matching
  
  Matches:
@@ -571,10 +571,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 29384
+Installed-Size: 17946
 Filename: iptables-mod-ipopt_1.8.8-2_aarch64_generic.ipk
-Size: 27809
-SHA256sum: b59d248dcdcdf0c47f88ec58ac51e9c6129c7dcfb3c6f025e2e3b6303e53752d
+Size: 18707
+SHA256sum: 17a2e409af1da28303ae361f91d4eb17cbe9f3c72bf95e48ff2f6c9d39636f1a
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -603,10 +603,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 3981
+Installed-Size: 3819
 Filename: iptables-mod-iprange_1.8.8-2_aarch64_generic.ipk
-Size: 4595
-SHA256sum: 2d2a05e4a23a346d70b8f97485fde6cad7d99780f31807df4f3e16f192aed42e
+Size: 4574
+SHA256sum: 630e25bc59b17256bce1e771fee699ad4f8ab9297b8b070630712cea17e782f0
 Description:  iptables extensions for matching ip ranges.
  
  Matches:
@@ -623,10 +623,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 9309
+Installed-Size: 7492
 Filename: iptables-mod-ipsec_1.8.8-2_aarch64_generic.ipk
-Size: 9460
-SHA256sum: 6e80d712afbec63636432c5b73c42759b71a857d47051cf10934e20afa52e8b0
+Size: 8289
+SHA256sum: 82b2d96a00935dbb8899b9d4ffbd6bdf8895168236b3aa93ad2e6822bcb81e6a
 Description:  iptables extensions for matching ipsec traffic.
  
  Matches:
@@ -645,10 +645,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2259
+Installed-Size: 2124
 Filename: iptables-mod-led_1.8.8-2_aarch64_generic.ipk
-Size: 2896
-SHA256sum: bf275ef5b00694411dce17c934b22320f602b0fde6daf34186ea5bb2d83b8ac7
+Size: 2910
+SHA256sum: 52c21ec484de9fd8356e7464955c1e22ef1a447711d9a42fe56981497a11469e
 Description:  iptables extension for triggering a LED.
  
  Targets:
@@ -665,10 +665,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 3578
+Installed-Size: 2747
 Filename: iptables-mod-nat-extra_1.8.8-2_aarch64_generic.ipk
-Size: 4119
-SHA256sum: 9e4ac7bf60bf2766dea9dbee68837424a1bdd4c7cb89df83aaaeda3f76a2e925
+Size: 3514
+SHA256sum: 270300e655e17f0118af6059f15b53c59bee2090e619e025cdb980050495e04a
 Description:  iptables extensions for extra NAT targets.
  
  Targets:
@@ -685,10 +685,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2650
+Installed-Size: 2503
 Filename: iptables-mod-nflog_1.8.8-2_aarch64_generic.ipk
-Size: 3324
-SHA256sum: 9b80029de7f4eec80da07abe5ccbd0569f4e60234c1f6eac9007f0e8e93d352f
+Size: 3315
+SHA256sum: c78a88d51b8677c8a0bc82b16228704c29486eb5c99524d6c1d9b7224e1c6f1e
 Description:  iptables extension for user-space logging via NFNETLINK.
  
  Includes:
@@ -705,10 +705,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 3140
+Installed-Size: 3026
 Filename: iptables-mod-nfqueue_1.8.8-2_aarch64_generic.ipk
-Size: 3827
-SHA256sum: 4f8b50c72b8b63642e79db98d582d235e51dfc4a17733cd54b7b0b8e56f5756a
+Size: 3828
+SHA256sum: ee95ea804d73082355d84ec4f285e7cc9fa0cfd5ba7e913e52e26e8a88455272
 Description:  iptables extension for user-space queuing via NFNETLINK.
  
  Includes:
@@ -725,10 +725,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2170
+Installed-Size: 2032
 Filename: iptables-mod-physdev_1.8.8-2_aarch64_generic.ipk
-Size: 2789
-SHA256sum: 9f53e88fa329a80d4c57204206a44a32f994d5ab45dc7b9e739f62cb0a737f6a
+Size: 2801
+SHA256sum: b50edbb7184a5e9053e88b2070b55a351d3454486c580a5d0f974a62c5ca8508
 Description:  The iptables physdev match.
 
 Package: iptables-mod-rpfilter
@@ -741,10 +741,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2199
+Installed-Size: 2045
 Filename: iptables-mod-rpfilter_1.8.8-2_aarch64_generic.ipk
-Size: 2873
-SHA256sum: 02287df970f442f26131cb336b3d6fb0ce5fe9cffcabe5b35d6f54df94c7ef0f
+Size: 2842
+SHA256sum: 47ed823033f412ca04d712b2b46f3ae5da1e685e63d3ddf8d3f5ea6a5b6928e5
 Description:  iptables extensions for reverse path filter test on a packet
  
  Matches:
@@ -761,10 +761,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2288
+Installed-Size: 2196
 Filename: iptables-mod-socket_1.8.8-2_aarch64_generic.ipk
-Size: 2924
-SHA256sum: d31f942acb3d3a844e1f87e844ecdb7d30353fab55109599f7065fd954b72ca6
+Size: 2936
+SHA256sum: 5660aa12f5c6253f6cf8c0ced3a42ee4e6e6adba9baa81dca58f28a74f651abb
 Description:  Socket match iptables extensions.
  
  Matches:
@@ -781,10 +781,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2145
+Installed-Size: 1999
 Filename: iptables-mod-tee_1.8.8-2_aarch64_generic.ipk
-Size: 2783
-SHA256sum: 87df43e63c16bea88bdec7e80aa74049777b2c4dd47a76c0f957b37238779d83
+Size: 2782
+SHA256sum: d1870f5f0be3e3c066559ffe39658f21fbe3c8ce2aff4756af44675c33b88f3c
 Description:  TEE iptables extensions.
  
  Targets:
@@ -801,10 +801,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2269
+Installed-Size: 2138
 Filename: iptables-mod-tproxy_1.8.8-2_aarch64_generic.ipk
-Size: 2913
-SHA256sum: 6694f9a02e9eb1616056a6e9322179272798d9de1f0a5e52d123a19573df0ad6
+Size: 2923
+SHA256sum: 9c0d0e7b5d2694e2a9510a59348df87d5b9354a5c9ce1e5ad7e18f1b9777ecb6
 Description:  Transparent proxy iptables extensions.
  
  Targets:
@@ -821,10 +821,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 1260
+Installed-Size: 1167
 Filename: iptables-mod-trace_1.8.8-2_aarch64_generic.ipk
-Size: 1963
-SHA256sum: 7bbe605bb28d36e7e44d6cc3813e8b2962df0150c30e6d3d652c1e51f7caab43
+Size: 1940
+SHA256sum: 593db24720ba9954f99c6b580c09fb36364f0e0ef02c5647240d93cb4491ac02
 Description:  iptables extension for TRACE target
  
  Includes:
@@ -841,10 +841,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 2953
+Installed-Size: 2817
 Filename: iptables-mod-u32_1.8.8-2_aarch64_generic.ipk
-Size: 3586
-SHA256sum: 186823ed518762600d6735bf09d59bda1e0bc1ecace7a6bbed202312d99b132a
+Size: 3592
+SHA256sum: f711a2e69fdb3d39fc0af593006abdd0ff0724e3887bb0d0468ca7a448fb0154
 Description:  U32 iptables extensions.
  
  Matches:
@@ -17022,10 +17022,10 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 7032
+Installed-Size: 7031
 Filename: libatomic1_15.0.0-4_aarch64_generic.ipk
-Size: 7686
-SHA256sum: 563db82c57ccdb03ba26d9f400a51efcc50da38b57abb43cb2390aae0aff11bc
+Size: 7694
+SHA256sum: f0c0f56645a949f49804690b2ae8682157a13599e60fbd6d59257f9d4530b9e5
 Description:  Atomic support library
 
 Package: libgcc1
@@ -17059,10 +17059,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 13133
+Installed-Size: 12952
 Filename: libip4tc2_1.8.8-2_aarch64_generic.ipk
-Size: 13738
-SHA256sum: 8736716629cb7f5e9b77e18081c5d88a17f1690e368cee41b8848e1f5495480b
+Size: 13717
+SHA256sum: 832e0180e11188a8abbc62fe9984a989e3bdfaa14718578195d9ffeea1c41f9c
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc2
@@ -17077,10 +17077,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 13336
+Installed-Size: 13235
 Filename: libip6tc2_1.8.8-2_aarch64_generic.ipk
-Size: 13927
-SHA256sum: 012450875469e25d0a433a0ef7700ac5e79f3e2023d196f2519a07f4416ee310
+Size: 13938
+SHA256sum: 132bc31df227bd458232824a44657716b86f683298968a79ec38111177f88a66
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptext-nft0
@@ -17095,10 +17095,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 0
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 3743
+Installed-Size: 3116
 Filename: libiptext-nft0_1.8.8-2_aarch64_generic.ipk
-Size: 4255
-SHA256sum: 6d2bc6b7a4bf0196dd0694929f331e452a43febbd25d7decff6fd7cc32a9fcb2
+Size: 3872
+SHA256sum: 5eb3d971a718f3a781fcd735d961ed768598fced53a838859ee99dc3de9eb419
 Description:  IPv4/IPv6 firewall - shared libiptext nft library
 
 Package: libiptext0
@@ -17113,10 +17113,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 0
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 49720
+Installed-Size: 50802
 Filename: libiptext0_1.8.8-2_aarch64_generic.ipk
-Size: 50224
-SHA256sum: ca04e83e1e1ca45051542a5dcdac33127935463925cfbdef2a82abdf402e9a56
+Size: 51513
+SHA256sum: fc31f0ac3b31756484cd94d1b3bcfbe74d1d539a1850c60c54692c494023f84d
 Description:  IPv4 firewall - shared libiptext library
 
 Package: libiptext6-0
@@ -17131,10 +17131,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: -0
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 9521
+Installed-Size: 9603
 Filename: libiptext6-0_1.8.8-2_aarch64_generic.ipk
-Size: 10183
-SHA256sum: 83b2e71f7635dc7f7273b2e9999caa3adea48ea96543268fb61fa0eee29398da
+Size: 10366
+SHA256sum: 2e91b62eb2c09dc4e33ca7a7fcc260f10630cd3b2edaf46f7aa6cc714609e781
 Description:  IPv6 firewall - shared libiptext library
 
 Package: libpthread
@@ -17186,10 +17186,10 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 652154
+Installed-Size: 652153
 Filename: libstdcpp6_15.0.0-4_aarch64_generic.ipk
-Size: 650464
-SHA256sum: ef63ebd607da626f66791ff03261492978f137e0760f036eb0b8167f90647da2
+Size: 650520
+SHA256sum: f0d642c97f52c3d293c48c92f0693ac00a7b767c6a630b10fff376918c572ca7
 Description:  GNU Standard C++ Library v3
 
 Package: libxdp129
@@ -17204,10 +17204,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 129
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 86999
+Installed-Size: 87037
 Filename: libxdp129_1.2.9-1_aarch64_generic.ipk
-Size: 87422
-SHA256sum: c774921aa6aafca858b31e99df2b27fe7b3a1cd256b9f6e8feca0f7c7cc01503
+Size: 87267
+SHA256sum: 4640308d111151d5cd2e41a206614596bb5d74da50ccf9bcb6c543bc699ef3f5
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -17222,10 +17222,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 12
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 25971
+Installed-Size: 26270
 Filename: libxtables12_1.8.8-2_aarch64_generic.ipk
-Size: 26596
-SHA256sum: defa8a55ffe6c8255a93668986191b7f640188e73f9771e9b6c407ab8debe223
+Size: 26759
+SHA256sum: 7a3a5649acb8997c1739bbfaf12802c8f4f1e558e1f46cb80101b5f415234e55
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mt7601u-firmware
@@ -17252,10 +17252,10 @@ License: GPL-2.0+
 Section: utils
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 13841
+Installed-Size: 13480
 Filename: mtd_26_aarch64_generic.ipk
-Size: 14448
-SHA256sum: a954c222b98e82ff8cd55c39a9c438e05f49e4a7625e2d6db6991be8899cdf8e
+Size: 14220
+SHA256sum: f99820beba13febec8823bab69809e1c4a62e48538fa3c875a2e8a7cc347ab69
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -17313,10 +17313,10 @@ Section: devel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 954267
+Installed-Size: 968898
 Filename: perf_6.6.38-6_aarch64_generic.ipk
-Size: 953703
-SHA256sum: 1f923cd8d82c543f088c93cc64143bab04f193c9d4593aa197aec7f6df84754e
+Size: 967973
+SHA256sum: f2931a62580caac024dce789fe6c395a0f2b8e24972fde764353b6f5b08baf9d
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -17329,10 +17329,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 26443
+Installed-Size: 26425
 Filename: qosify_2023-03-07-9a47ea4b-1_aarch64_generic.ipk
-Size: 26834
-SHA256sum: e4bf0f61782b7ca3326f0aa1af437d2fbfdfd84a1b0d1d44e96ce12fbe8ff827
+Size: 26849
+SHA256sum: 4f00f46c15f5279ebe27322cd1dab92e1abf6157fc5fbad7e82410e3be6697db
 Description:  A simple QoS solution based eBPF + CAKE
 
 Package: r8152-firmware
@@ -17615,10 +17615,10 @@ Section: base
 SourceDateEpoch: 1711146363
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: aarch64_generic
-Installed-Size: 3737
+Installed-Size: 3614
 Filename: snapshot-tool_2023-02-28-bfe882d5-1_aarch64_generic.ipk
-Size: 4343
-SHA256sum: 61034fa520499f3cebbd5c6ab7a0917cb99f329a701fa71dadff4b00c80b1b8c
+Size: 4348
+SHA256sum: 8d2939ed31f9f41958ebabc1663bf5503a17e0e9fc9f5b601a150b363a47e4a3
 Description:  rootfs snapshoting tool
 
 Package: uboot-envtools
@@ -17631,10 +17631,10 @@ LicenseFiles: Licenses/README
 Section: utils
 SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
-Installed-Size: 15047
+Installed-Size: 14831
 Filename: uboot-envtools_2023.04-1_aarch64_generic.ipk
-Size: 15628
-SHA256sum: c4f6c06be4d2d81d7efef7ad6360fd162ba47dad709533b9c46d31963b085bbe
+Size: 15543
+SHA256sum: 38014491f008d7c906f580c8a8c6cadbe70407598396e5a9a9299e751a2fb336
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
 Package: umbim
@@ -17647,10 +17647,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: aarch64_generic
-Installed-Size: 11831
+Installed-Size: 11852
 Filename: umbim_2022-08-13-146bc77c-24_aarch64_generic.ipk
-Size: 12488
-SHA256sum: 724ba7f31001c0d611de57e22c605e9d96f4ce2f216f837a55bebd64c9f7f81c
+Size: 12691
+SHA256sum: 1b30fc1c6f4227b665f174c24463b91cdd4b99a2b6a04b171ce02c79fcb94b51
 Description:  umbim is a command line tool for controlling mobile broadband modems using
  the MBIM-protocol.
 
@@ -17664,10 +17664,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: aarch64_generic
-Installed-Size: 46988
+Installed-Size: 46962
 Filename: uqmi_2022-10-20-c8c9f105-1_aarch64_generic.ipk
-Size: 47693
-SHA256sum: 6ff65e1d2ea250509cbb8fa9d002a0ea52ac4f7dea91a25bc79d7c54a6de4206
+Size: 47715
+SHA256sum: ab616be1bb977b3bbe2474d6eed8b4567fb55e2b462c0c0531b2211dede5f245
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
@@ -17726,10 +17726,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43766
+Installed-Size: 43898
 Filename: xdp-filter_1.2.9-1_aarch64_generic.ipk
-Size: 44473
-SHA256sum: 839d22e9be48f726f65adcae4462c44d972b6691c7dcb26a366f60207780febb
+Size: 44615
+SHA256sum: 10f66b634b1ed4aa8d33caf9c3eb5977d35774a6eb920dfd716664e510dd0892
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -17745,10 +17745,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 35471
+Installed-Size: 35624
 Filename: xdp-loader_1.2.9-1_aarch64_generic.ipk
-Size: 36093
-SHA256sum: 046a36699c22ceda8aa341e0e2bfcf4dd78038fea473d0f206ab96a13c908bc3
+Size: 36314
+SHA256sum: f60a6cf5ecff7bc3e4b39d7f141cdb4ee9ab41e94396430adbf8251609c53238
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -17763,10 +17763,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
-Installed-Size: 43417
+Installed-Size: 43556
 Filename: xdpdump_1.2.9-1_aarch64_generic.ipk
-Size: 43878
-SHA256sum: a533e42b7cd14eb04ecf8792b9c523a2963754b83ee332ccde6438692e238072
+Size: 44095
+SHA256sum: df695f1d8a6e286405840490b22ec6fd2ebe4fbf0880d4a89d5b5054567a18fb
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
@@ -17779,10 +17779,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 31916
+Installed-Size: 32018
 Filename: xtables-legacy_1.8.8-2_aarch64_generic.ipk
-Size: 32364
-SHA256sum: 16a98cc8cc32a43ecf1f01cd903e5cb7ec40dc8cfc42f2a3b0ddb816b6591e39
+Size: 32519
+SHA256sum: 12729d940eaf228824827462490c3e9f6a7dfc029f3669bb62d711b762b7b497
 Description:  IP firewall administration tool
 
 Package: xtables-nft
@@ -17795,9 +17795,9 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: aarch64_generic
-Installed-Size: 95276
+Installed-Size: 96211
 Filename: xtables-nft_1.8.8-2_aarch64_generic.ipk
-Size: 95585
-SHA256sum: cb658a8afa61197b173a6cb52905227d9c0945b7c5df95913a26e68233954460
+Size: 96259
+SHA256sum: 34caf46149907bdac7b6bc4efb2fd3a76255e2bedfa135fe3be510d53b385c81
 Description:  IP firewall administration tool nft
 
