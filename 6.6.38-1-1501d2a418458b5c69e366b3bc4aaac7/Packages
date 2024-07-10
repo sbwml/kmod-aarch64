@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47726
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48729
-SHA256sum: bb3937bc8f8a23ffd86249556b675465c618e1cca6c453923880183d9a29c1eb
+Size: 48727
+SHA256sum: bb6104c4e0872d731f5532de719d09f31db2667f5578643b7015d9b73341f993
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -1930,6 +1930,18 @@ Size: 8044
 SHA256sum: a3b7d744540e8d0cae8a71ff47605dc8215c67c259e42596f3100f39d67af290
 Description:  Combined mode wrapper for IPsec
 
+Package: kmod-crypto-blake2b
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-hash
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 7116
+Filename: kmod-crypto-blake2b_6.6.38-1_aarch64_generic.ipk
+Size: 7899
+SHA256sum: baa7e6e9c41339b27b3b5ea6853f1fdabde7937085a4c7b26ab378b0d6d6556e
+Description:  Support for BLAKE2b cryptographic hash function (RFC 7693)
+
 Package: kmod-crypto-cbc
 Version: 6.6.38-1
 Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-manager
@@ -2481,6 +2493,18 @@ Filename: kmod-crypto-xts_6.6.38-1_aarch64_generic.ipk
 Size: 4905
 SHA256sum: e5db78620c0072466058a1cf4912dbd95194fcb125f70fc6747aeb47b6120de1
 Description:  XTS cipher CryptoAPI module
+
+Package: kmod-crypto-xxhash
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-hash, kmod-lib-xxhash
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 1704
+Filename: kmod-crypto-xxhash_6.6.38-1_aarch64_generic.ipk
+Size: 2442
+SHA256sum: 7377399b263795da6aa090a91ffdeec83bcec805fe9fe769650a90f567069790
+Description:  xxHash non-cryptographic hash algorithm
 
 Package: kmod-cryptodev
 Version: 6.6.38+1.12-rockchip-1
@@ -3194,14 +3218,14 @@ Description:  Kernel module for AutoFS4 support
 
 Package: kmod-fs-btrfs
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-lib-crc32c, kmod-lib-lzo, kmod-lib-zlib-inflate, kmod-lib-zlib-deflate, kmod-lib-raid6, kmod-lib-xor, kmod-lib-zstd
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-lib-crc32c, kmod-lib-lzo, kmod-lib-zlib-inflate, kmod-lib-zlib-deflate, kmod-lib-raid6, kmod-lib-xor, kmod-lib-zstd, kmod-crypto-blake2b, kmod-crypto-xxhash
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 1054426
 Filename: kmod-fs-btrfs_6.6.38-1_aarch64_generic.ipk
-Size: 1017724
-SHA256sum: aee1b3268aeca5b97df51d64904b0f0db767172d4f7f218386a5be4b2bba1500
+Size: 1017747
+SHA256sum: 13a8a7fd6c0157d2874d743fe22c85112057d72de4b9253e83ee4044d7a70e5b
 Description:  Kernel module for BTRFS support
 
 Package: kmod-fs-cifs
@@ -3889,14 +3913,14 @@ Description:  Kernel module for GPIO controlled FANs
 
 Package: kmod-hwmon-gsc
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-hwmon-core, kmod-i2c-core
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-hwmon-core, kmod-i2c-core, kmod-mfd
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 7523
 Filename: kmod-hwmon-gsc_6.6.38-1_aarch64_generic.ipk
-Size: 8309
-SHA256sum: df7ebf2ff42aa15d8687111e109bfa0a161c36fe045ae0a20e32237e4b008b7e
+Size: 8311
+SHA256sum: 574d7851ff0de02dd4505d7d4c59d2e1eb4d65f11e8f724ba9680f124ef2aebd
 Description:  Kernel module for Gateworks System Controller with temperature sensor,
  ADCs, and FAN controller
 
@@ -5978,14 +6002,14 @@ Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-ipt-conntrack, kmod-ipt-core
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-ipt-conntrack, kmod-nf-dup-inet, kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 5640
 Filename: kmod-ipt-tee_6.6.38-1_aarch64_generic.ipk
-Size: 6337
-SHA256sum: 1e1df839603d55190892e53d294540576fce5140aefe5b5f1bdc54e62e137aae
+Size: 6342
+SHA256sum: 8bea3d7b2cc2a4dbe43e8f32cf5a211be495c7b4189980365985ffaaf0714419
 Description:  Kernel modules for TEE
 
 Package: kmod-ipt-tproxy
@@ -6517,17 +6541,41 @@ Size: 4144
 SHA256sum: 553798978ac29f0e64798fe070191bb622bd351951bf5b7734101fde845d866f
 Description:  Kernel module for CRC8 support
 
-Package: kmod-lib-lz4
+Package: kmod-lib-lz4-decompress
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-acompress
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7)
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 26739
+Installed-Size: 8137
+Filename: kmod-lib-lz4-decompress_6.6.38-1_aarch64_generic.ipk
+Size: 8850
+SHA256sum: 88d97679950e7e3741ebd99d8a6ee56bc073312e4629449caa0869ebf90c1a1e
+Description:  LZ4 decompress
+
+Package: kmod-lib-lz4
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-acompress, kmod-lib-lz4-decompress
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 11419
 Filename: kmod-lib-lz4_6.6.38-1_aarch64_generic.ipk
-Size: 27473
-SHA256sum: 95adf015d32dcabc0ae9862a445812e3adbeda3168cfeb7285ef86835714bf20
+Size: 12175
+SHA256sum: e2207091ea3e20bf967de76887346c771998a390ff611af351f2d8ca7fbcbbcc
 Description:  Kernel module for LZ4 compression/decompression support
+
+Package: kmod-lib-lz4hc
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-acompress, kmod-lib-lz4-decompress
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 10632
+Filename: kmod-lib-lz4hc_6.6.38-1_aarch64_generic.ipk
+Size: 11357
+SHA256sum: a1c5e4b6dacde30d5b6dee2ba8e158a5aa7a7e2d2317bb31d64a7ec57de60ab2
+Description:  Kernel module for LZ4HC compression/decompression support
 
 Package: kmod-lib-lzo
 Version: 6.6.38-1
@@ -6601,6 +6649,18 @@ Size: 6469
 SHA256sum: 8ba1aa911a24506b42278aae0227510cb048c70310eed08b04a4890f47eeb870
 Description:  Kernel module for XOR blocks algorithms
 
+Package: kmod-lib-xxhash
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7)
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 97
+Filename: kmod-lib-xxhash_6.6.38-1_aarch64_generic.ipk
+Size: 810
+SHA256sum: a472a1d31d1f60a1cb137ff70cc62c81826be9a4506c4deaa60425653f10456d
+Description:  xxhash support
+
 Package: kmod-lib-zlib-deflate
 Version: 6.6.38-1
 Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7)
@@ -6627,14 +6687,14 @@ Description:  Zlib support
 
 Package: kmod-lib-zstd
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-acompress
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-crypto-acompress, kmod-lib-xxhash
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 268729
+Installed-Size: 268726
 Filename: kmod-lib-zstd_6.6.38-1_aarch64_generic.ipk
-Size: 267820
-SHA256sum: 0dd14cc55f7cba6d8bc230590958f153941cfac447270bbdf176a1de225247f6
+Size: 267889
+SHA256sum: 46d99cd60cb73bc0648c3a24d1046fc66080c500399d6e08a70f7978464cce28
 Description:  Kernel module for ZSTD compression/decompression support
 
 Package: kmod-libphy
@@ -6917,6 +6977,18 @@ Filename: kmod-mdio_6.6.38-1_aarch64_generic.ipk
 Size: 4204
 SHA256sum: 13df6c6ddd3db87b3fffa4e06f56fc8a453daff320fe41407a9fe6330b46d6d7
 Description:  Kernel modules for MDIO (clause 45) PHY support
+
+Package: kmod-mfd
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7)
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 181
+Filename: kmod-mfd_6.6.38-1_aarch64_generic.ipk
+Size: 906
+SHA256sum: 4598f7cd6639107c5350bf2d6c70be67be25e942f1dcb7879bf2019e6350b614
+Description:  Multifunction device drivers
 
 Package: kmod-mhi-bus
 Version: 6.6.38-1
@@ -7684,10 +7756,10 @@ Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7)
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 34657
+Installed-Size: 38644
 Filename: kmod-mtdtests_6.6.38-1_aarch64_generic.ipk
-Size: 35152
-SHA256sum: 72da5a59573b943a4d0404e8d1932695a2828a5631f5a8d410777820ee04565d
+Size: 39090
+SHA256sum: 478c5d8099ac16c521f4ec56c60e82687fc3a567cb676f35dbfd3e53824477a8
 Description:  Kernel modules for MTD subsystem/driver testing
 
 Package: kmod-mtk-t7xx
@@ -7935,6 +8007,18 @@ Filename: kmod-nf-conntrack_6.6.38-1_aarch64_generic.ipk
 Size: 96068
 SHA256sum: 2c31a6926749bce288140b0a0c7bba5b29fa543dfa03e0ae0c61693efad5ec8d
 Description:  Netfilter connection tracking
+
+Package: kmod-nf-dup-inet
+Version: 6.6.38-1
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-nf-conntrack, kmod-nf-conntrack6
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 2445
+Filename: kmod-nf-dup-inet_6.6.38-1_aarch64_generic.ipk
+Size: 3207
+SHA256sum: ea24168aae497adeb3f1e04ba1bc31aaa069d5a92448b65e5e307737216da7d7
+Description:  Netfilter nf_tables dup in ip/ip6/inet family support
 
 Package: kmod-nf-flow
 Version: 6.6.38-1
@@ -8248,14 +8332,14 @@ Description:  Kernel module support for nftables
 
 Package: kmod-nft-dup-inet
 Version: 6.6.38-1
-Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-nft-core, kmod-nf-conntrack, kmod-nf-conntrack6
+Depends: kernel (=6.6.38-1-1501d2a418458b5c69e366b3bc4aaac7), kmod-nft-core, kmod-nf-dup-inet
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 5449
+Installed-Size: 3510
 Filename: kmod-nft-dup-inet_6.6.38-1_aarch64_generic.ipk
-Size: 6197
-SHA256sum: 73c649d2cb0db1805737020dd5d656c1aa9288d40c5263895d5cb7bd5f91da10
+Size: 4259
+SHA256sum: 6f5e6de8d06d0f2d409ce595ac6354f0fcaa6a86aa02fe76ef3464a106e82ce2
 Description:  Netfilter nf_tables dup in ip/ip6/inet family support
 
 Package: kmod-nft-fib
