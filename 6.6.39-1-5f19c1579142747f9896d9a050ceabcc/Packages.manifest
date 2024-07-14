@@ -4,13 +4,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: airoha-en8811h-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 54572
+Installed-Size: 54571
 Filename: airoha-en8811h-firmware_20240610-1_aarch64_generic.ipk
-Size: 55268
-SHA256sum: ab2886af0cb63c6c19b44d08c0921aefe481ce4f59ee9371bad33569d62543aa
+Size: 55255
+SHA256sum: 6c7ea833f27d1457ea0403f7e0a1053d01494999292312ed02346d6d5b769b7a
 Description:  Airoha EN8811H 2.5G Ethernet PHY firmware
 
 Package: ar3k-firmware
@@ -19,13 +19,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: ar3k-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 974817
+Installed-Size: 974815
 Filename: ar3k-firmware_20240610-1_aarch64_generic.ipk
-Size: 975166
-SHA256sum: d967016717acb32858a65c592a69763d0d699c80d72b32933717e28502579327
+Size: 975144
+SHA256sum: cdd39b3da8318851fb9c182b126469754349b4f644961a009a4a6c3b23f8d88f
 Description:  ath3k firmware
 
 Package: arptables-nft
@@ -52,13 +52,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: ath9k-htc-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 61875
+Installed-Size: 61873
 Filename: ath9k-htc-firmware_20240610-1_aarch64_generic.ipk
-Size: 62225
-SHA256sum: 1412187caef2c8430a419c9d2a4863ba5f002cbcd66daf9d93a1c542ea5c412e
+Size: 62417
+SHA256sum: 695551d40678800cfb83a00fbf8d3a1973d009b6a8ee0289cce7c4956c98cd6f
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-arm
@@ -87,8 +87,8 @@ SourceDateEpoch: 1711146363
 Architecture: aarch64_generic
 Installed-Size: 47726
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48726
-SHA256sum: 88735ac7699ee2c59f2ea95591101742df3ce25bc5936de96890ec18779ded10
+Size: 48725
+SHA256sum: 3d6cf7f9c5b3984babe82fb1a790c465dfe1487ea96c47e58cdfaa69ac1c88d8
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -129,13 +129,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: bnx2-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 105165
+Installed-Size: 105163
 Filename: bnx2-firmware_20240610-1_aarch64_generic.ipk
-Size: 105819
-SHA256sum: 2f00fdddfe6238daf1b6ef7f35ad4a302ec1266cce32fa45ca17bf7a8f496cf1
+Size: 105809
+SHA256sum: 5caceab9f58d348331edee30070e267b3f95487a76b95e6529cb18ec7425f093
 Description:  Broadcom BCM5706/5708/5709/5716 firmware
 
 Package: bnx2x-firmware
@@ -144,13 +144,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: bnx2x-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 2421811
+Installed-Size: 2421814
 Filename: bnx2x-firmware_20240610-1_aarch64_generic.ipk
-Size: 2415478
-SHA256sum: bea4144222e16aa52efb20aa51353b6165cbe4cae27d36e31341c1adbd38f158
+Size: 2415438
+SHA256sum: 913e466be0f2f23c574e38837ee1536e67d60a42e7606dc51ea4af8023d1f053
 Description:  =QLogic 5771x/578xx firmware
 
 Package: brcmfmac-firmware-usb
@@ -159,13 +159,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: brcmfmac-firmware-usb
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 502983
+Installed-Size: 502980
 Filename: brcmfmac-firmware-usb_20240610-1_aarch64_generic.ipk
-Size: 503690
-SHA256sum: b5b67d9bded5d4ad60c69c4c8e1e2dbeff3e1015655c7fcd060756cea4ab6f99
+Size: 503664
+SHA256sum: 7184a69784f524fcf3ea253c4876ccba175a02324c482366884ea6b2e8b59c24
 Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: carl9170-firmware
@@ -174,13 +174,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: carl9170-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 9763
+Installed-Size: 9760
 Filename: carl9170-firmware_20240610-1_aarch64_generic.ipk
-Size: 10502
-SHA256sum: 33acf0617d5a8597b2724e0435bd2e7827eab432bd5e23a8877f6b7074db2024
+Size: 10486
+SHA256sum: 78dfe44c906545a5bd4cb9af05f91d06a455f8736b39585b12046ab386baa94e
 Description:  AR9170 firmware
 
 Package: comgt-directip
@@ -274,13 +274,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: e100-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 833
+Installed-Size: 831
 Filename: e100-firmware_20240610-1_aarch64_generic.ipk
-Size: 1552
-SHA256sum: 9901a786e5a3d19b76d941076139602541db6697265275420b5576937285b60c
+Size: 1542
+SHA256sum: 2075cb1593cbe14ee7dc10f17ce05a8f31497c4d3bae0e71335c37ba641653b1
 Description:  Intel e100
 
 Package: ebtables-nft
@@ -307,13 +307,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: edgeport-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 18899
+Installed-Size: 18896
 Filename: edgeport-firmware_20240610-1_aarch64_generic.ipk
-Size: 19601
-SHA256sum: 2a98183bcc737b7f4519d6aa02d750a4b851602b2cac16e34a2be5cecbff50de
+Size: 19579
+SHA256sum: 95afa762b86a7b84025611ffe7be6360ab55687b2ae3e1ea443d47017bbf3951
 Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: fstools
@@ -1312,40 +1312,6 @@ Filename: kmod-ata-via-sata_6.6.39-1_aarch64_generic.ipk
 Size: 10248
 SHA256sum: 0c95fb9771f3be6bf059edd17cd49187dfd460b60f5f475e4b7e932167d8c918
 Description:  This option enables support for VIA Serial ATA
-
-Package: kmod-ath10k-ct-smallbuffers
-Version: 6.6.39+2022-05-13-f808496f-5
-Depends: kernel (=6.6.39-1-5f19c1579142747f9896d9a050ceabcc), kmod-mac80211, kmod-ath, kmod-hwmon-core
-Provides: kmod-ath10k
-Source: package/kernel/ath10k-ct
-SourceName: kmod-ath10k-ct-smallbuffers
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1711146363
-Maintainer: Ben Greear <greearb@candelatech.com>
-Architecture: aarch64_generic
-Installed-Size: 453241
-Filename: kmod-ath10k-ct-smallbuffers_6.6.39+2022-05-13-f808496f-5_aarch64_generic.ipk
-Size: 447549
-SHA256sum: d338839bc64538196abe4e8dd3dc4e186ecfde856cc569d4c02a48186d75a735
-Description:  ath10k-ct driver optimized for CT ath10k firmware (small buffers for low-RAM devices)
-
-Package: kmod-ath10k-ct
-Version: 6.6.39+2022-05-13-f808496f-5
-Depends: kernel (=6.6.39-1-5f19c1579142747f9896d9a050ceabcc), kmod-mac80211, kmod-ath, kmod-hwmon-core
-Provides: kmod-ath10k
-Source: package/kernel/ath10k-ct
-SourceName: kmod-ath10k-ct
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1711146363
-Maintainer: Ben Greear <greearb@candelatech.com>
-Architecture: aarch64_generic
-Installed-Size: 453164
-Filename: kmod-ath10k-ct_6.6.39+2022-05-13-f808496f-5_aarch64_generic.ipk
-Size: 447435
-SHA256sum: 3ab5a8cec4f58c5617e22dd845fec5eb30ac6b871da9d6791dd9e30825bb71f9
-Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath10k-smallbuffers
 Version: 6.6.39+6.6.15-1
@@ -11832,38 +11798,6 @@ Description:  This option enables support for RTL8723BS SDIO drivers, such as th
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
 
-Package: kmod-rtl8812au-ac
-Version: 6.6.39+2023-07-23-04f600ee-1
-Depends: kernel (=6.6.39-1-5f19c1579142747f9896d9a050ceabcc), kmod-cfg80211, kmod-usb-core
-Source: package/kernel/rtl8812au-ac
-SourceName: kmod-rtl8812au-ac
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1714807128
-Architecture: aarch64_generic
-Installed-Size: 1313559
-Filename: kmod-rtl8812au-ac_6.6.39+2023-07-23-04f600ee-1_aarch64_generic.ipk
-Size: 1224866
-SHA256sum: 83ca4bcd814a87d5ec095790912657557e58a408624b5bb218872004265610c0
-Description:  Realtek rtl8812au/21au and rtl8814au driver
-
-Package: kmod-rtl8812au-ct
-Version: 6.6.39+2022-10-26-9b2b203a-1
-Depends: kernel (=6.6.39-1-5f19c1579142747f9896d9a050ceabcc), kmod-cfg80211, kmod-usb-core
-Provides: kmod-rtl8812au
-Source: package/kernel/rtl8812au-ct
-SourceName: kmod-rtl8812au-ct
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1715003179
-Maintainer: Ben Greear <greearb@candelatech.com>
-Architecture: aarch64_generic
-Installed-Size: 784850
-Filename: kmod-rtl8812au-ct_6.6.39+2022-10-26-9b2b203a-1_aarch64_generic.ipk
-Size: 736304
-SHA256sum: 460a6fb8e65a17ab1ce0f956662814f86bdeb75b01baeb944057509666e8c167
-Description:  Driver for Realtek 8812 AU devices comfast 912-ac, etc
-
 Package: kmod-rtl8821ae
 Version: 6.6.39+6.6.15-1
 Depends: kernel (=6.6.39-1-5f19c1579142747f9896d9a050ceabcc), kmod-rtlwifi-btcoexist, kmod-rtlwifi-pci, rtl8821ae-firmware
@@ -12163,10 +12097,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 35493
+Installed-Size: 35231
 Filename: kmod-rtw88-usb_6.6.39+6.6.15-1_aarch64_generic.ipk
-Size: 36115
-SHA256sum: 06e152ec725b5e2deed59d445790643bc92138479a0dc1e141bc702f61f3ed36
+Size: 35867
+SHA256sum: ccc4531608ccf239dcbcb3136628afaa1c487a7e1360aa7f33651be22a64c7cb
 Description:  Realtek RTW88 USB chips support
 
 Package: kmod-rtw88
@@ -12178,10 +12112,10 @@ Section: kernel
 SourceDateEpoch: 1708865942
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 138258
+Installed-Size: 138227
 Filename: kmod-rtw88_6.6.39+6.6.15-1_aarch64_generic.ipk
-Size: 137680
-SHA256sum: 08b30e53a64ae8676dae58138b7e9527bf5eb5d1a5921509abef09bf4ce24bd4
+Size: 137663
+SHA256sum: eec0aeddab3e9d7480cf21d43160450d2d29dfbbc4f224bc507cf2de2b3586e4
 Description:  Realtek RTW88 common part
 
 Package: kmod-rtw89
@@ -16610,13 +16544,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mt7601u-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 26438
+Installed-Size: 26435
 Filename: mt7601u-firmware_20240610-1_aarch64_generic.ipk
-Size: 27146
-SHA256sum: 615b8b09652b8968df125e9bf37b23fa10a4489cb2a8ddb62e61c4b4dd2ca3a1
+Size: 27136
+SHA256sum: bfc67751b06457ece1d55cf2e8f38c7bf0edea3568da068861673e1cbed5cfe8
 Description:  MediaTek MT7601U firmware
 
 Package: mtd
@@ -16641,13 +16575,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mwifiex-pcie-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 514902
+Installed-Size: 514898
 Filename: mwifiex-pcie-firmware_20240610-1_aarch64_generic.ipk
-Size: 515546
-SHA256sum: 5d710b5c25cd8360d78d4d9b751f6b7f0ac1bdca2f08cf9be752e939ecedd296
+Size: 515500
+SHA256sum: 149522212e972e70850b1dc0ce0c97b10c27934d9d27fb7560aabef52df8d32a
 Description:  Marvell 8897 firmware
 
 Package: mwifiex-sdio-firmware
@@ -16656,13 +16590,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mwifiex-sdio-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 876718
+Installed-Size: 876715
 Filename: mwifiex-sdio-firmware_20240610-1_aarch64_generic.ipk
-Size: 876991
-SHA256sum: e7dbb53bd18fde383a758ab1cfc2ef140ce5be1e0e186be592d956981e11e2e1
+Size: 876989
+SHA256sum: 01c35e0a2d7d00a6caa7cebdcdae3330d546592aebc45337405db888f04f8794
 Description:  Marvell 8887/8997 firmware
 
 Package: mwl8k-firmware
@@ -16671,13 +16605,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mwl8k-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 192352
+Installed-Size: 192351
 Filename: mwl8k-firmware_20240610-1_aarch64_generic.ipk
-Size: 193194
-SHA256sum: 9c15fe0267b5e157bfef09be1978df8979197f782b81d67cdf44f8230129c8d7
+Size: 193187
+SHA256sum: f6f4ff0c445722e7d643b6dd76945e774335f7e692b634269a8f1b99af5b736e
 Description:  Marvell 8366/8687 firmware
 
 Package: perf
@@ -16717,13 +16651,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: r8152-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 10168
+Installed-Size: 10165
 Filename: r8152-firmware_20240610-1_aarch64_generic.ipk
-Size: 10883
-SHA256sum: 89f41275d91b6a965eeb24fc66ed31049ee3deced23f37e42c61732f92c5fb8d
+Size: 10867
+SHA256sum: 1685fe5dce249752cc99c5df6d095df1fc30616e6c0e920046f8d6e56c8c0644
 Description:  RealTek RTL8152 firmware
 
 Package: r8169-firmware
@@ -16732,13 +16666,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: r8169-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 23823
+Installed-Size: 32621
 Filename: r8169-firmware_20240610-1_aarch64_generic.ipk
-Size: 24507
-SHA256sum: 600c2a3baed1e519fdc4da9f1538e0852cea5c5edc38bb5671e4950eace4c0f0
+Size: 33245
+SHA256sum: 3c6cb65946d8b4ef8875aa998c01d5bc7ef85d5b295a082220cff901f1aa7a6b
 Description:  RealTek RTL8169 firmware
 
 Package: rs9113-firmware
@@ -16747,13 +16681,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rs9113-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 84654
+Installed-Size: 84653
 Filename: rs9113-firmware_20240610-1_aarch64_generic.ipk
-Size: 85213
-SHA256sum: 68091b0629b028f94f30c83febcf6d0e9657ea7bcc8f3b1fa8e9e2895d1b0bff
+Size: 85205
+SHA256sum: 1892f488914343913746bed051ac7b6998c8e0fb38fd7c450506731c7c3b822e
 Description:  RedPine Signals rs9113 firmware
 
 Package: rt2800-pci-firmware
@@ -16762,13 +16696,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rt2800-pci-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 3960
+Installed-Size: 3957
 Filename: rt2800-pci-firmware_20240610-1_aarch64_generic.ipk
-Size: 4681
-SHA256sum: 7a1473c7eced93059ae581352cc27794fabc2629f3ba2ecda24c809ee865d502
+Size: 4678
+SHA256sum: c94bf9e43b469fb710b8d6dbf1db34935ec844e9552f4ea851371d8b6f59f37a
 Description:  Ralink RT28xx/3xxx PCI/SoC firmware
 
 Package: rt2800-usb-firmware
@@ -16777,13 +16711,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rt2800-usb-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 2930
+Installed-Size: 2928
 Filename: rt2800-usb-firmware_20240610-1_aarch64_generic.ipk
 Size: 3638
-SHA256sum: 72ee532023dccaeef3d2ba02f119f84734318d5d153831c6f3db2320e71fbbb9
+SHA256sum: 84417acba3e47b8e64a676313777cb6876dddea2bf9d11aad4a1c9c15a0ed1a0
 Description:  Ralink RT28xx/3xxx USB firmware
 
 Package: rtl8192ce-firmware
@@ -16792,13 +16726,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8192ce-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 20753
+Installed-Size: 20752
 Filename: rtl8192ce-firmware_20240610-1_aarch64_generic.ipk
-Size: 21456
-SHA256sum: f2b0d620bb37b86c67f8106d98e92244ead084fea2ecff07349f520e88210a7c
+Size: 21450
+SHA256sum: e44a51fc55923503096593cd9af5000d2b973e80bf460d92f269d307d7bb2c59
 Description:  RealTek RTL8192CE firmware
 
 Package: rtl8192cu-firmware
@@ -16807,13 +16741,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8192cu-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 18707
+Installed-Size: 18706
 Filename: rtl8192cu-firmware_20240610-1_aarch64_generic.ipk
-Size: 19468
-SHA256sum: 2c59f38781c5a8d89e9a33f19055e73f54f0cf023f7064d03f08f98703446ad8
+Size: 19459
+SHA256sum: 09ac4a46734b23469f1c466334c0e6e14f1edb4f2dca4d4758f31aee301529f6
 Description:  RealTek RTL8192CU firmware
 
 Package: rtl8192de-firmware
@@ -16822,13 +16756,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8192de-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 13525
+Installed-Size: 13521
 Filename: rtl8192de-firmware_20240610-1_aarch64_generic.ipk
-Size: 14250
-SHA256sum: cf9b66e00369f6afb6dc4fb6c1b5010620bbdd5cdc39d9298c2344ecf933b5fa
+Size: 14235
+SHA256sum: 8a194b048ceebc86fe5e6d2d4295e0b60d5aea4260f2aa96df8a61b8d299300d
 Description:  RealTek RTL8192DE firmware
 
 Package: rtl8192se-firmware
@@ -16837,13 +16771,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8192se-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 36770
+Installed-Size: 36767
 Filename: rtl8192se-firmware_20240610-1_aarch64_generic.ipk
-Size: 37447
-SHA256sum: c1fc7ba18a4570e45589404484ac4cc39fd521acbc8241244fdfed75382fbaff
+Size: 37436
+SHA256sum: 2c9f805fa45fb39059873f1e83f380c94238434b043a40d1ca86a15a1330ee32
 Description:  RealTek RTL8192SE firmware
 
 Package: rtl8723de-firmware
@@ -16852,13 +16786,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8723de-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 18872
+Installed-Size: 18868
 Filename: rtl8723de-firmware_20240610-1_aarch64_generic.ipk
-Size: 19566
-SHA256sum: 1be80b4231ebfe9bf1786a01b848c053043a17a287b5d8e72cbf1cc156de0bb0
+Size: 19561
+SHA256sum: e1c48da9d483305dc09a5cbce1bf0a81fe1c1d8ef6abcde4740cccb31af9f415
 Description:  RealTek RTL8723DE firmware
 
 Package: rtl8821ae-firmware
@@ -16867,13 +16801,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8821ae-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 27901
+Installed-Size: 27898
 Filename: rtl8821ae-firmware_20240610-1_aarch64_generic.ipk
-Size: 28598
-SHA256sum: 6e0fdc10c92f6185f8a685be6ed3990cdbcd1502744d11c3a6f7059fe7d96b35
+Size: 28589
+SHA256sum: 0ce65bf6464fabb45a1bbf7ff8b076cecad0c1495026fd8b10d996353e54db08
 Description:  RealTek RTL8821AE firmware
 
 Package: rtl8821ce-firmware
@@ -16882,13 +16816,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8821ce-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 57344
+Installed-Size: 57339
 Filename: rtl8821ce-firmware_20240610-1_aarch64_generic.ipk
-Size: 58020
-SHA256sum: f9f0062ec0bbedaa9e72a104a502702fb928a15e7031502ae4c992c7b6152b7d
+Size: 58012
+SHA256sum: bc1227cb72dbd49edf608f47c7d8ac2eed5ece00da4bcb1ba122d23cd91744bf
 Description:  RealTek RTL8821CE firmware
 
 Package: rtl8822be-firmware
@@ -16897,13 +16831,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8822be-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 82176
+Installed-Size: 82172
 Filename: rtl8822be-firmware_20240610-1_aarch64_generic.ipk
-Size: 82969
-SHA256sum: bbc2fd7040132935bfbdf592ebd7d9f1742fb29757634fe53534da6078fcf80b
+Size: 82949
+SHA256sum: 9ea708e6f3fe18b0d58ea645e58feb0bbaa605c67ef9894e5f3ec397ecdec1a0
 Description:  RealTek RTL8822BE firmware
 
 Package: rtl8822ce-firmware
@@ -16912,13 +16846,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8822ce-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 161936
+Installed-Size: 161935
 Filename: rtl8822ce-firmware_20240610-1_aarch64_generic.ipk
-Size: 162605
-SHA256sum: a7051cdfa1da1bffc04ca856a18d55d4dbcada1a65d56d994672c4e8fb2a73b9
+Size: 162585
+SHA256sum: c6bc0b3566985f6edb1aca90109eb6d007db102d9351c7d6f131cd1c59420568
 Description:  RealTek RTL8822CE firmware
 
 Package: rtl8851be-firmware
@@ -16927,13 +16861,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8851be-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 597080
+Installed-Size: 597078
 Filename: rtl8851be-firmware_20240610-1_aarch64_generic.ipk
-Size: 597706
-SHA256sum: 86e8cb0a7c5359804974c16d96cda5ac0f3282501342f2dabcfbd035391eca9b
+Size: 597688
+SHA256sum: 4f9f480a71ecfae8d4b6731989f47f2633d95a7094f6ec2f68b3d99576af411a
 Description:  RealTek RTL8851BE firmware
 
 Package: rtl8852ae-firmware
@@ -16942,13 +16876,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8852ae-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 663974
+Installed-Size: 663973
 Filename: rtl8852ae-firmware_20240610-1_aarch64_generic.ipk
-Size: 664674
-SHA256sum: c775e4f6cdc510792c8ef02272698029902cbc29ffde939251002213e49464ff
+Size: 664667
+SHA256sum: a76d7f9895395c1ae0b57a67e60c2bfa2986da8e76ff12d0070edf68a6448a29
 Description:  RealTek RTL8852AE firmware
 
 Package: rtl8852be-firmware
@@ -16957,13 +16891,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8852be-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 1164470
+Installed-Size: 1164700
 Filename: rtl8852be-firmware_20240610-1_aarch64_generic.ipk
-Size: 1164927
-SHA256sum: 1fa8651e421781768cae50b0fbc8cd89b57bdbafd2d6998ae954aa1edd4c940a
+Size: 1165157
+SHA256sum: af34f9706d0a37bca1bdf93c39a95de2ff7aea730e0923d669ff0e174e22482a
 Description:  RealTek RTL8852BE firmware
 
 Package: rtl8852ce-firmware
@@ -16972,13 +16906,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8852ce-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 829814
+Installed-Size: 829810
 Filename: rtl8852ce-firmware_20240610-1_aarch64_generic.ipk
-Size: 829653
-SHA256sum: bc2c9946c9e10e35e95ecfce21719fee9439b1758fb941453867549587aa2bda
+Size: 829639
+SHA256sum: 5d63e12108c7c630f17c8852e71494cf3ce510e4fde23e29204521e4b59a74c6
 Description:  RealTek RTL8852CE firmware
 
 Package: snapshot-tool
@@ -17053,13 +16987,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: wil6210-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 254941
+Installed-Size: 254940
 Filename: wil6210-firmware_20240610-1_aarch64_generic.ipk
-Size: 255739
-SHA256sum: e4ca9fdc83a9f9d00b710206ecab769fcc0ebfa072a96af2fcc84f1503091d8e
+Size: 255736
+SHA256sum: c51d7e4bf48b8bb643de34343d85ca1cf84c8fb196a2ea70e07ff5228528d758
 Description:  wil6210 firmware
 
 Package: wl12xx-firmware
@@ -17068,13 +17002,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: wl12xx-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1175083
 Filename: wl12xx-firmware_20240610-1_aarch64_generic.ipk
-Size: 1175082
-SHA256sum: f37b6f5b12f415d8a058484b17ab8fcccbfbf07a09c97b32e1f8c566bdee0f68
+Size: 1175075
+SHA256sum: 4e8c33afb564e161e55c67c5320c1af99f76d6575e92fa0985fd0b5477d4d5a1
 Description:  TI WL12xx firmware
 
 Package: wl18xx-firmware
@@ -17083,13 +17017,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: wl18xx-firmware
 Section: firmware
-SourceDateEpoch: 1718554404
+SourceDateEpoch: 1720951274
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 343327
+Installed-Size: 343325
 Filename: wl18xx-firmware_20240610-1_aarch64_generic.ipk
-Size: 343906
-SHA256sum: 325b605f19218f5451fa3102610608c697bbd336cf47d43b80f25459da3c1436
+Size: 343903
+SHA256sum: 50b53e5b92ca42a88da62a01b12ce317b890e927c14648b87432de0cb736101a
 Description:  TI WL18xx firmware
 
 Package: xdp-filter
