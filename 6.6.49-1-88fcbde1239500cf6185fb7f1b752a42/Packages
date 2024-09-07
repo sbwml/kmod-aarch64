@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47774
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
-Size: 48770
-SHA256sum: 16f152eae1318395b5483aef758480c2355decdae490738023b1f6aa249e830f
+Size: 48771
+SHA256sum: e44bd63a912eb4d286a610bb9bda1680dc2d8a745b3217038b072a96fe5d7a70
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -7893,6 +7893,18 @@ Size: 23854
 SHA256sum: d8ce8ffb2e553bf4ab262f5c4e336a975225422e4bbaad7c46ce4e731fb1d2ac
 Description:  Stateless NAT46 translation kernel module
 
+Package: kmod-natflow
+Version: 6.6.49+20240907-1
+Depends: kernel (=6.6.49-1-88fcbde1239500cf6185fb7f1b752a42), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 91553
+Filename: kmod-natflow_6.6.49+20240907-1_aarch64_generic.ipk
+Size: 91335
+SHA256sum: 882a7805184564a2cfec93e28abd3b5d0afe4d15c99458ae7a15203c60085c08
+Description:  fast nat forward kmod
+
 Package: kmod-natsemi
 Version: 6.6.49-1
 Depends: kernel (=6.6.49-1-88fcbde1239500cf6185fb7f1b752a42)
@@ -13985,6 +13997,18 @@ Filename: mwl8k-firmware_20240610-1_aarch64_generic.ipk
 Size: 193187
 SHA256sum: f6f4ff0c445722e7d643b6dd76945e774335f7e692b634269a8f1b99af5b736e
 Description:  Marvell 8366/8687 firmware
+
+Package: natflow
+Version: 20240907
+Depends: libc, ethtool, kmod-natflow
+License: GPL-2.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 943
+Filename: natflow_20240907_aarch64_generic.ipk
+Size: 1689
+SHA256sum: 8049ec97e25868b64b9b749baf1bf24355821390a6537afd5be138e90c8f779b
+Description:  Natflow init script
 
 Package: perf
 Version: 6.6.49-6
