@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1721166679
 Architecture: aarch64_generic
-Installed-Size: 47774
+Installed-Size: 47771
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
-Size: 48770
-SHA256sum: b1f8cd131b8dc29ddf180c95bdb7400221a1ca9f31fa9b85eac2e7e710defe1d
+Size: 48767
+SHA256sum: 66264afe9433a8e2eaa35c4267bb10425cbe3473a651d5a9cce2ef0e881fa951
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8824,10 +8824,10 @@ LicenseFiles: COPYING
 Section: kernel
 SourceDateEpoch: 1721166679
 Architecture: aarch64_generic
-Installed-Size: 268748
+Installed-Size: 283302
 Filename: kmod-lib-zstd_6.6.50-1_aarch64_generic.ipk
-Size: 267858
-SHA256sum: 41a86533a2967658cdfca37342a9b197863148d5fc3830621e0fe579aa7c0196
+Size: 282415
+SHA256sum: a8b2f59a575f7de7e6a7636d24eb6c8b5a2dfa40c885a5c5a46a684c09670ecc
 Description:  Kernel module for ZSTD compression/decompression support
 
 Package: kmod-libphy
