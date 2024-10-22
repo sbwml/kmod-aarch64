@@ -1,23 +1,23 @@
 Package: airoha-en8811h-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 54573
-Filename: airoha-en8811h-firmware_20240909-1_aarch64_generic.ipk
-Size: 55269
-SHA256sum: 144a21fd38fc33dfdd8cccde9dfeb959ad1234b5af395671daf048c61b72aa8b
+Installed-Size: 56247
+Filename: airoha-en8811h-firmware_20241017-1_aarch64_generic.ipk
+Size: 56923
+SHA256sum: 2cf5f65ec755396a234bc49928fe0adb28cb98f07e6744c96567d202a17f515f
 Description:  Airoha EN8811H 2.5G Ethernet PHY firmware
 
 Package: ar3k-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 976275
-Filename: ar3k-firmware_20240909-1_aarch64_generic.ipk
-Size: 976420
-SHA256sum: 136697f4fe0dd89b58024cb624cb6740342e21d8b512dd18f6a8269c34c38fc2
+Installed-Size: 979393
+Filename: ar3k-firmware_20241017-1_aarch64_generic.ipk
+Size: 979750
+SHA256sum: 35c2c16d0760c2d755fd330cd9e8c2e5de677489a5a52a2c64eb8f313ff3b341
 Description:  ath3k firmware
 
 Package: arptables-nft
@@ -36,14 +36,14 @@ SHA256sum: e04c5a7efd8d1e76915540f661843837f185d46f48f7a89a8554bc6b4e028781
 Description:  ARP firewall administration tool nft
 
 Package: ath9k-htc-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
 Installed-Size: 61875
-Filename: ath9k-htc-firmware_20240909-1_aarch64_generic.ipk
-Size: 62349
-SHA256sum: 86b1e71e06d47172e77ce79dee8eca4c1e711a8ef9843b934890ce994614f2c5
+Filename: ath9k-htc-firmware_20241017-1_aarch64_generic.ipk
+Size: 62425
+SHA256sum: aa2a4a9f447655602898a7f3dfca5f8ca3067a449a33db022c630219410bd52a
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-arm
@@ -63,10 +63,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: aarch64_generic
-Installed-Size: 47765
+Installed-Size: 47764
 Filename: base-files_1-r24106-10cc5fcd00_aarch64_generic.ipk
 Size: 48758
-SHA256sum: 4a8f530c94160dadf4f4a4aa10270591de4f8458081ec21307bb85ac6bd4620f
+SHA256sum: 345792f08d0adacbab7e8e7e72668574dcb184ce7da4c28dbe410f46471cd8b5
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -94,47 +94,47 @@ SHA256sum: b52b3dacbc4051fcd246cfd5b0de9020ce966db855841896bcde8ce2aa597c2b
 Description:  Block device automounting
 
 Package: bnx2-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 105168
-Filename: bnx2-firmware_20240909-1_aarch64_generic.ipk
-Size: 105826
-SHA256sum: a05e8af9bc2cd31edeb2e19a0462ca9da337f2028746f977ee60972726d9da37
+Installed-Size: 105166
+Filename: bnx2-firmware_20241017-1_aarch64_generic.ipk
+Size: 105829
+SHA256sum: bfdaac276072aeac77667a57d3722e4a3b3de6e8d592dfb63ab9279cc64e3c5c
 Description:  Broadcom BCM5706/5708/5709/5716 firmware
 
 Package: bnx2x-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 2421812
-Filename: bnx2x-firmware_20240909-1_aarch64_generic.ipk
-Size: 2415471
-SHA256sum: 64f469dc4b4e80e478b6dc7bdd4b37219d1cefad0add31e85fa6ddd2440ef86f
+Installed-Size: 2421824
+Filename: bnx2x-firmware_20241017-1_aarch64_generic.ipk
+Size: 2415479
+SHA256sum: b230dd9dcd94a237a18fa7a9ce44b3558b262b95929cff09219b72f43f6ddabd
 Description:  =QLogic 5771x/578xx firmware
 
 Package: brcmfmac-firmware-usb
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 502983
-Filename: brcmfmac-firmware-usb_20240909-1_aarch64_generic.ipk
+Installed-Size: 502981
+Filename: brcmfmac-firmware-usb_20241017-1_aarch64_generic.ipk
 Size: 503681
-SHA256sum: 7d071a7ca14c3e3c9c5344b51f3b15ce3ec33c5210496d6fb83565e346c0b10a
+SHA256sum: 43002de1e32fac8b89d74816ea8b8308616b1e88738d2463f0435e8b35e50da1
 Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: carl9170-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 9762
-Filename: carl9170-firmware_20240909-1_aarch64_generic.ipk
+Installed-Size: 9760
+Filename: carl9170-firmware_20241017-1_aarch64_generic.ipk
 Size: 10500
-SHA256sum: 73fa1d8b713b6625e0ace660baa250c1d82f37fb5f674ae0b615a9a4a90897fa
+SHA256sum: 7a1818d56fea4816bfb967ffaf2fe05ed59a4795dd56ed1e5a8896c902874489
 Description:  AR9170 firmware
 
 Package: comgt-directip
@@ -203,14 +203,14 @@ SHA256sum: e02d80628e158992ce0faa2ed3faa12b40cca75da0b9f9a86232ff291332db48
 Description:  Utility for converting SSH keys
 
 Package: e100-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 834
-Filename: e100-firmware_20240909-1_aarch64_generic.ipk
-Size: 1563
-SHA256sum: d8bb4b291fe9564a27551dfe57dee35f45f72a78accc4246b338731f38a48d92
+Installed-Size: 830
+Filename: e100-firmware_20241017-1_aarch64_generic.ipk
+Size: 1553
+SHA256sum: 7c936933efa007a7cf451874e1fa5bbcb2feea763ec45dd6b0d327705dff7b81
 Description:  Intel e100
 
 Package: ebtables-nft
@@ -229,14 +229,14 @@ SHA256sum: 7af4829d14f8fcad644ed085e20d3440be1c62361cbcdfffe5a15c2b0cb71b89
 Description:  Bridge firewall administration tool nft
 
 Package: edgeport-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 18899
-Filename: edgeport-firmware_20240909-1_aarch64_generic.ipk
-Size: 19578
-SHA256sum: 137272fcd2bd7cfe2567bc088b67491be3de94f6d64a58f3b8f380b0a355f9c5
+Installed-Size: 18898
+Filename: edgeport-firmware_20241017-1_aarch64_generic.ipk
+Size: 19600
+SHA256sum: c47c7ab1917d9e9ca9cadf082f3687dfae79cb38dd4a61df8a9835bf1dfaa201
 Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: fstools
@@ -887,10 +887,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 37476
+Installed-Size: 37479
 Filename: kmod-ar5523_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 38141
-SHA256sum: 6d3f29017632687f797237aba8afb1af146fe0607b1419f287efb732d7421e2f
+Size: 38150
+SHA256sum: dbad9e0b772d11cd7248682104784af66dd8a08e9b041122dc983fb16ecd4a1b
 Description:  Driver for Atheros AR5523 USB sticks
 
 Package: kmod-arptables
@@ -1082,10 +1082,10 @@ Provides: kmod-ath10k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 457477
+Installed-Size: 457893
 Filename: kmod-ath10k-ct-smallbuffers_6.6.57+2024-07-30-ac71b14d-1_aarch64_generic.ipk
-Size: 451706
-SHA256sum: eac067561771d0473baa915a1d0a6683d07a7f40b7ab26db923c78448277d3f2
+Size: 452158
+SHA256sum: be0942e32c4f5e4ac2438750bb5da31fe9e186dac30186a167f431cba78d34de
 Description:  ath10k-ct driver optimized for CT ath10k firmware (small buffers for low-RAM devices)
 
 Package: kmod-ath10k-ct
@@ -1095,10 +1095,10 @@ Provides: kmod-ath10k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 457412
+Installed-Size: 457800
 Filename: kmod-ath10k-ct_6.6.57+2024-07-30-ac71b14d-1_aarch64_generic.ipk
-Size: 451676
-SHA256sum: 29fa4f0018da176660ed05e11e838a831df60d83d57ab9b34be95c6431bda249
+Size: 452051
+SHA256sum: 7d83056780c0a8945e7468f9a732309d746a85186be6abd59200c89f0876579c
 Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath10k-smallbuffers
@@ -1107,10 +1107,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath, kmod-hwm
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 392060
+Installed-Size: 392088
 Filename: kmod-ath10k-smallbuffers_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 387201
-SHA256sum: 0421e5714856474a46ce063af0d1544c96717b101b36c84f788d192fe0904a15
+Size: 387204
+SHA256sum: e9a21c46ad693f9c1b0d30b702c0e1fa9025d13106a15f9f40886dbe6b4f9fe4
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
@@ -1119,10 +1119,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath, kmod-hwm
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 392009
+Installed-Size: 392042
 Filename: kmod-ath10k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 387235
-SHA256sum: 5e493cd6b727d04939ba326d9845d1c84b74ffefb00b27ba3f9bcd226336b354
+Size: 387141
+SHA256sum: a813bc6e504ab4aef88682e4a3e8ca801a1598279d0949afe1e500b045b3df69
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
@@ -1133,10 +1133,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-qrtr-mhi, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 35394
+Installed-Size: 35397
 Filename: kmod-ath11k-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 36243
-SHA256sum: 6499a31b277bc0d64323c7b51b6488031d2282481b4ec45cb3558445fffaadf7
+Size: 36259
+SHA256sum: 25eff5449dd9840282640cff6d2ede414fca8e21efec7e486fcce48c3ad32b13
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets with PCI bus.
 
@@ -1146,10 +1146,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath, kmod-cry
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 413460
+Installed-Size: 413467
 Filename: kmod-ath11k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 406695
-SHA256sum: e8c9cf6850fa258216eafb167dbfbeeb1ba0d4481e169e31fcbc107c088640de
+Size: 406698
+SHA256sum: 85f5fddacb423b4cfe89cccf7eabdf370923c6046fca64e5f153e6bab31df12a
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
@@ -1159,10 +1159,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath, kmod-cry
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 343800
+Installed-Size: 343796
 Filename: kmod-ath12k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 340150
-SHA256sum: 348a5867ba8026b20afce27e5eb41ce14267023e1a42f5373bb4f03af0a75e7f
+Size: 340173
+SHA256sum: d9cc758fa54e35bf079c74e9d473e942bde20f6a8637f425325e4a1239c62d55
 Description:  This module adds support for Qualcomm Technologies 802.11be family of
  chipsets with PCI bus.
 
@@ -1184,10 +1184,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 150700
+Installed-Size: 150702
 Filename: kmod-ath5k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 148968
-SHA256sum: 7addca956a4d0ba732abbc4d23cb9a66053bb25c4384a1e4d6245f5ddad061e8
+Size: 149022
+SHA256sum: fc21ff1b1de6d742752c8f2c626cf1b452d5044c4281b578fe2ed30c4481d601
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
@@ -1197,10 +1197,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mmc, kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 23787
+Installed-Size: 23794
 Filename: kmod-ath6kl-sdio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 24595
-SHA256sum: a46cc920ab7d070ab40253954a783f1c088a19d9d0f47a848d7957d34821876c
+Size: 24589
+SHA256sum: 9c630f9111154afd3b6a44190e0a9a00d0771f2c24a422e5c60f9f051bf9f61d
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR6003 and AR6004 family of chipsets.
 
@@ -1210,10 +1210,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-usb-core, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 20683
+Installed-Size: 20690
 Filename: kmod-ath6kl-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 21515
-SHA256sum: bf9a1b322cf1873f4ffdea9e05f7918a4cb18bdce523bf7c3aeaf5e6d0ca67cd
+Size: 21525
+SHA256sum: 3d2f5d6eb1248eada4f883259581cda9ee57530cea7c7f3817e6e75cfe47bac6
 Description:  This module adds support for wireless adapters based on the
  Atheros IEEE 802.11n AR6004 chipset.
 
@@ -1223,10 +1223,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 188453
+Installed-Size: 188485
 Filename: kmod-ath6kl_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 186350
-SHA256sum: cca0585b9019942cf8e31900b65310d7dece4d1b8bf78c15ddcda127b58cee45
+Size: 186422
+SHA256sum: 0422a429a5858bac058b7944be0577c1f781e83a19bf6e3ba4173f56cda54674
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
@@ -1235,10 +1235,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath, kmod-ran
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 227916
+Installed-Size: 227913
 Filename: kmod-ath9k-common_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 224322
-SHA256sum: 62fc6d2d87e47293d2b7fb469b7a49f36326890f3f272d2b84029d4f75d28556
+Size: 224342
+SHA256sum: 7854d29bcd5b77e10a424e50af6e8ba26fff0a028e59deac0d4f2b99f0b799cf
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
@@ -1249,8 +1249,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 86391
 Filename: kmod-ath9k-htc_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 86642
-SHA256sum: 020c88c897e6c19c10415d6d7bb4f2f561bf6187ba1a5cd99dc87fc35fb1bffc
+Size: 86622
+SHA256sum: 635037b1840c6f701ad6a338e7f612b79e3dd31061d9e5b56bedbe6993b4ca81
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
@@ -1260,10 +1260,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath9k-common
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 119353
+Installed-Size: 119358
 Filename: kmod-ath9k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 118866
-SHA256sum: 36326414ae9b3f1b25ea79dde582153ff0dc5fa7b0aecaf34eb094fe5595dfff
+Size: 118926
+SHA256sum: ca4e823ce760ee88a2289a891aa3f4d145467db8b662db6dd9d96d1b8a43c72e
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -1273,10 +1273,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 37206
+Installed-Size: 37202
 Filename: kmod-ath_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 37915
-SHA256sum: 51b22abc4c41f97e65a53c170e6ecc93d71ed9fcda4ad8051ff99ac92a52e711
+Size: 37916
+SHA256sum: ecff1d944af0b43f5c27d0b0331f710b7addf722b2a626c0ff4511fc4699212f
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atl1
@@ -1393,10 +1393,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 368291
+Installed-Size: 368626
 Filename: kmod-b43_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 362059
-SHA256sum: 293e075954a2fc37578a6f65f39f9211869c187e12015528423dcc39abbb1de4
+Size: 362346
+SHA256sum: b853cb3ec21458593314cdf70f33bfef3bc5ae070942eae7c6afecbeb1c798f0
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -1441,10 +1441,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-lib-crc16, km
 License: GPL-2.0-only MIT
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 161275
+Installed-Size: 161272
 Filename: kmod-batman-adv_6.6.57+2024.3-2_aarch64_generic.ipk
-Size: 158605
-SHA256sum: 258edf29256a564fd79f41d7286428b9b339a6a55322b155083d80f2cd37ff19
+Size: 158604
+SHA256sum: bd47a8efb948e621cde875b9ab1a49dad72a8af296a5e2abad340078e8ce710a
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -1578,10 +1578,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-cfg80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 303073
+Installed-Size: 303102
 Filename: kmod-brcmfmac_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 300467
-SHA256sum: 4ab91edb72982845ce34c4ed592ad6eed1e0fe2853621b792726cd8c9a309a0c
+Size: 300471
+SHA256sum: 6e0a1231f2f3048970e6159d122aa40b4a47b05e54b62bc6416dfef9ed174e55
 Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
 
 Package: kmod-brcmsmac
@@ -1590,10 +1590,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 337536
+Installed-Size: 337541
 Filename: kmod-brcmsmac_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 331620
-SHA256sum: f45309f37e033e22e8ff0ed194f7ee69bb767993cf165950e784d8045db657d8
+Size: 331658
+SHA256sum: 6e899b94ec3456646e892ea09a975d70509dc6f436d80c545ffb8e0098414e36
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
@@ -1602,10 +1602,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4)
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 6590
+Installed-Size: 6591
 Filename: kmod-brcmutil_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 7455
-SHA256sum: cfd40a40f51b7d3f5ee65dac66a11b89dd67c47a32232a0c8146c2bbe384a396
+Size: 7456
+SHA256sum: 7bdc05b7f933d78eb5c444f8c952e1f0dd6f72bd746a6b1c8b135ececedca877
 Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.
 
 Package: kmod-btmrvl
@@ -1860,10 +1860,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 100433
+Installed-Size: 100435
 Filename: kmod-carl9170_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 99945
-SHA256sum: c73126521c52d9095cb59b826790d41c24e04a2383acb6d643cce9a085709f72
+Size: 99960
+SHA256sum: 577b4d41ce9412428c3b8e58b575855d599792f065e9c3621aff7af5aed0bdc9
 Description:  Driver for Atheros AR9170 USB sticks
 
 Package: kmod-cc2520
@@ -1896,10 +1896,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), iw, iwinfo, wirele
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 541532
+Installed-Size: 542421
 Filename: kmod-cfg80211_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 505250
-SHA256sum: a2cc2e060cb3e5c91b5850616c465834b1d41205e50bfa2666aef7675f905d73
+Size: 506458
+SHA256sum: b051843959eee701497e31bc45e1ca66dcaf966ce36d289e0bd2b943fcd42873
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -5438,10 +5438,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-nf-conncount,
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 18255
+Installed-Size: 18283
 Filename: kmod-ipt-conntrack-extra_6.6.57-1_aarch64_generic.ipk
-Size: 19073
-SHA256sum: 13a29db43c4e3238d92e42ee33d27f6477423fc3a2a11bdd936ad27291615593
+Size: 19099
+SHA256sum: e5d871df9e51c02f187fdb3004ad143551ecbf1fdc57d5bef54eee9ae1b37869
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -5500,10 +5500,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-nf-reject, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 20904
+Installed-Size: 20908
 Filename: kmod-ipt-core_6.6.57-1_aarch64_generic.ipk
-Size: 21686
-SHA256sum: 36e3ee3b43ccf3195fe97637f26ecd65b3018fc9dcff1c14d7ce85f0691b96a5
+Size: 21679
+SHA256sum: 59f057fd56a27c36c5e63b5b3acc405bd7a2d5e74943c4efb8b358a1f83eecb6
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -5522,8 +5522,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 2054
 Filename: kmod-ipt-debug_6.6.57-1_aarch64_generic.ipk
-Size: 2841
-SHA256sum: dd2fa9bffc28aeba49c4d9b20eea370102ceab0141ece917596084204a442aba
+Size: 2847
+SHA256sum: ee53eb63511af9ee8f7d934c08f93dc8625bfc9fed086f60a0a7478ee4fca8f1
 Description:  Netfilter modules for debugging/development of the firewall
  Includes:
  - TRACE
@@ -5865,10 +5865,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ipt-core, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 2355
+Installed-Size: 2357
 Filename: kmod-ipt-nflog_6.6.57-1_aarch64_generic.ipk
-Size: 3147
-SHA256sum: ceb9d35bbb9a1e26d42714867cc69dace719603a5ee2987efdb1f4fae13a4adb
+Size: 3143
+SHA256sum: 3175b903ccdc848da52d1ae96d9db32f96f2553a7669aea323ab8f8b6c3e1bc2
 Description:  Netfilter module for user-space packet logging
  Includes:
  - NFLOG
@@ -6149,10 +6149,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 746824
+Installed-Size: 746829
 Filename: kmod-iwlwifi_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 736526
-SHA256sum: d0fbfc39afb2c12e925482ef19652d9a5fe3b76190c5aaf4c7730699cef0ac1d
+Size: 736594
+SHA256sum: f2890a7d687236a78e393c87208c9fd96aa60f27bbfc0768a8a7b02f6124b644
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -6797,10 +6797,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 74995
+Installed-Size: 74998
 Filename: kmod-mac80211-hwsim_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 74941
-SHA256sum: 7ed475b6c49944f0040bf800e33654310debcf478298f27cdce1a9ec5668ea0f
+Size: 74882
+SHA256sum: 2d58cfd3d96029fc9e361e2c998e474df3e2d9ae838643191b4c14570ec54a4b
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
@@ -6809,10 +6809,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-cfg80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 737810
+Installed-Size: 738656
 Filename: kmod-mac80211_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 702389
-SHA256sum: d33b079f1b5a295fca69cf8228df78868009f0019e295432a47697dee9f5bde3
+Size: 703281
+SHA256sum: 68f6502e3d46df19b1c93c88ba1385cbc01381241af25135f9a04a927e39b8d9
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -7270,545 +7270,17 @@ Size: 9986
 SHA256sum: 3917664133dde648c015cf2de433aa89cd02d872ec30a6cf5c278c524dff64ab
 Description:  MRF24J40 transceiver driver
 
-Package: kmod-mt76-connac
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 67378
-Filename: kmod-mt76-connac_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 68044
-SHA256sum: 9072358138393075d01de218367bd3260d2970dc3a15203982b43ee863519930
-Description:  MediaTek MT7615/MT79xx wireless driver common code
-
-Package: kmod-mt76-core
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 80411
-Filename: kmod-mt76-core_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 80608
-SHA256sum: c8a51811b5393e03902f9a46c27b4f86e57873d6af89e87ca563e587621643b9
-Description:  MediaTek MT76xx wireless driver
-
-Package: kmod-mt76-sdio
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core, kmod-mmc
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 25134
-Filename: kmod-mt76-sdio_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 25924
-SHA256sum: 53e3c015a70b66cf45321e058fe137208db10a2a21aa559cb021c67060d2605b
-Description:  MediaTek MT7615/MT79xx SDIO driver common code
-
-Package: kmod-mt76-usb
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-usb-core, kmod-mt76-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 31264
-Filename: kmod-mt76-usb_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 32019
-SHA256sum: 035c1bb3cf4f37cbaa3dd681a72cc1a1f1baa6d89e6e35677582ee8a4bb48c0d
-Description:  MediaTek MT76xx wireless driver USB support
-
 Package: kmod-mt7601u
 Version: 6.6.57+6.11-1
 Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-usb-core, mt7601u-firmware
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 96462
+Installed-Size: 96464
 Filename: kmod-mt7601u_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 95170
-SHA256sum: 872bfe06226444dc5254f07aefe9c3bc80b28e6321363d0a666962e9ac519bf4
+Size: 95124
+SHA256sum: 02f1296dde01971bb157e6d6f54376d7553bec26fc4e0ca779944cc1d22415bd
 Description:  MT7601U-based USB dongles Wireless Driver
-
-Package: kmod-mt7603
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 134049
-Filename: kmod-mt7603_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 134660
-SHA256sum: 8340cfe4640d4f7072714b564468483557d6e824101ff8558b26b16fe89c06ee
-Description:  MediaTek MT7603 wireless driver
-
-Package: kmod-mt7615-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core, kmod-mt76-connac, kmod-hwmon-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 97090
-Filename: kmod-mt7615-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 97063
-SHA256sum: b2c4b6e5018e2fa773d6b5ebee5fcf7ba706f493cb5d6299c1bc1b089e969b3e
-Description:  MediaTek MT7615 wireless driver common code
-
-Package: kmod-mt7615-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7615e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 551544
-Filename: kmod-mt7615-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 552425
-SHA256sum: 8e5c25e1a6ca5a044694c65d177c765a5eb42c9b1c6e5ad29a77cf8a1e8d9edc
-Description:  MediaTek MT7615e firmware
-
-Package: kmod-mt7615e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7615-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 34864
-Filename: kmod-mt7615e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 35639
-SHA256sum: 30bac1230149942d74dd8844c6112eea6306fd22185e524f107bd9d63209c273
-Description:  MediaTek MT7615e wireless driver
-
-Package: kmod-mt7622-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7615e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 332330
-Filename: kmod-mt7622-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 333196
-SHA256sum: 898311d50af86c170a1b6b50787b40b3aa4c17b76c25c6d1e9eced8a57df80e2
-Description:  MediaTek MT7622 firmware
-
-Package: kmod-mt7663-firmware-ap
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 460348
-Filename: kmod-mt7663-firmware-ap_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 461139
-SHA256sum: c88227b423763b4d7249f61a9b77b7fae508322ead3328abafd105af087be938
-Description:  MediaTek MT7663e firmware (optimized for AP)
-
-Package: kmod-mt7663-firmware-sta
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 564545
-Filename: kmod-mt7663-firmware-sta_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 564985
-SHA256sum: ace37c108c8d4c303553b13de699b925da67f05cae836e5340917f5cade17130
-Description:  MediaTek MT7663e firmware (client mode offload)
-
-Package: kmod-mt7663-usb-sdio
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7615-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 26520
-Filename: kmod-mt7663-usb-sdio_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27288
-SHA256sum: 1224ea9275450ef4872cbb9476285b8bca941bc6f866ce52d863356f5d26a4b7
-Description:  MediaTek MT7663 USB/SDIO shared code
-
-Package: kmod-mt7663s
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-sdio, kmod-mt7615-common, kmod-mt7663-usb-sdio
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 26533
-Filename: kmod-mt7663s_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27312
-SHA256sum: 621f875cc3074d319289ab0d09b9850875438cb9aefdbf8ca075567cc03e0f6e
-Description:  MediaTek MT7663s wireless driver
-
-Package: kmod-mt7663u
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-usb, kmod-mt7615-common, kmod-mt7663-usb-sdio
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 26700
-Filename: kmod-mt7663u_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27526
-SHA256sum: 9aa8cde60fe134342285422f1caf994e876773cd90933d93faf42aea2e560eef
-Description:  MediaTek MT7663u wireless driver
-
-Package: kmod-mt76
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mt76-core, kmod-mt76x2, kmod-mt7603
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 95
-Filename: kmod-mt76_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 894
-SHA256sum: cbe38a525409c416e71c8152b57475d54d390d299b257c42522f2a8f601a8fde
-Description:  MediaTek MT76x2/MT7603 wireless driver (metapackage)
-
-Package: kmod-mt76x0-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76x02-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 82870
-Filename: kmod-mt76x0-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 83494
-SHA256sum: 7dc46e147edee1ce6c6a15c7684e75d551ecafe20fea5fc74f6f75dd27915c8d
-Description:  MediaTek MT76x0 wireless driver common code
-
-Package: kmod-mt76x02-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 62576
-Filename: kmod-mt76x02-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 63271
-SHA256sum: 70adfec1cafb07df6b4f4b3c66fb78b8a917666718d9ccb9e3560b6beb56ed09
-Description:  MediaTek MT76x0/MT76x2 wireless driver common code
-
-Package: kmod-mt76x02-usb
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-usb, kmod-mt76x02-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 23913
-Filename: kmod-mt76x02-usb_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 24727
-SHA256sum: aaf48418fdf43b41db8b012252bb20805abc0951481b26b1aa8afd97503e261a
-Description:  MediaTek MT76x0/MT76x2 USB wireless driver common code
-
-Package: kmod-mt76x0e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76x0-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 28148
-Filename: kmod-mt76x0e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 28938
-SHA256sum: 571d384603840f06bd4cf62a566b828445089b6eb26c247999c944ccea7237fc
-Description:  MediaTek MT76x0E wireless driver
-
-Package: kmod-mt76x0u
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76x0-common, kmod-mt76x02-usb
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 27101
-Filename: kmod-mt76x0u_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27912
-SHA256sum: 1bb1b4acd28637a6d492c0bcce9413b3063aad17dcb7c0c12ff7977a3321fd06
-Description:  MediaTek MT76x0U wireless driver
-
-Package: kmod-mt76x2-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-core, kmod-mt76x02-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 97974
-Filename: kmod-mt76x2-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 98835
-SHA256sum: 0c7d81c7ac15ee24cd9089eba69ab6996af705117e79f12026fa992e12857e5b
-Description:  MediaTek MT76x2 wireless driver common code
-
-Package: kmod-mt76x2
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76x2-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 33532
-Filename: kmod-mt76x2_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 34336
-SHA256sum: d9d31e9c220db746b6282570ab440cd9cabeac8acc103b82586c7ae9cae4b1af
-Description:  MediaTek MT76x2 wireless driver
-
-Package: kmod-mt76x2u
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76x2-common, kmod-mt76x02-usb
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 32306
-Filename: kmod-mt76x2u_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 33160
-SHA256sum: 97f3359bc69a60382204740949b9266a7cb469d5f1952d0001df92f632c3bab7
-Description:  MediaTek MT76x2U wireless driver
-
-Package: kmod-mt7915-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7915e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 516582
-Filename: kmod-mt7915-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 513185
-SHA256sum: 99f1ec790b95654f79956063bde692d6fab7c3186a5901fb20da7df5f016502d
-Description:  MediaTek MT7915 firmware
-
-Package: kmod-mt7915e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 132053
-Filename: kmod-mt7915e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 131549
-SHA256sum: 9c694323516a4022899f82fdd3e5b9ed68b66db68ba0440ad4686ec113e26ec0
-Description:  MediaTek MT7915e wireless driver
-
-Package: kmod-mt7916-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7915e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 712162
-Filename: kmod-mt7916-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 707612
-SHA256sum: 29dd3a06ba13ea0b6855cde707b5841ad21f04971780684cb2d3ac33d78e8bd6
-Description:  MediaTek MT7916 firmware
-
-Package: kmod-mt7921-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt792x-common, kmod-mt7921-firmware, kmod-hwmon-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 84385
-Filename: kmod-mt7921-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 78461
-SHA256sum: dd1678f0c49eb69015704864bf4e8f5c33bb266996c46a8f25ecca2540f4c2d6
-Description:  MediaTek MT7921 wireless driver common code
-
-Package: kmod-mt7921-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 513222
-Filename: kmod-mt7921-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 512419
-SHA256sum: e73d584fd4face1607c89307d84bd06e0319c02cc783501d5f0a7327e788ab40
-Description:  MediaTek MT7921 firmware
-
-Package: kmod-mt7921e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7921-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 30973
-Filename: kmod-mt7921e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 31784
-SHA256sum: 6f541b28ddb15b64c1e7bb298ff529208d2349f261d016beadd3d8cddf975fe5
-Description:  MediaTek MT7921e wireless driver
-
-Package: kmod-mt7921s
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-sdio, kmod-mt7921-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 28424
-Filename: kmod-mt7921s_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 29212
-SHA256sum: 3af8c5cb746afacee2fea243e59a3ca9ee4bd33c7b3b60c38b4a9633092fc27c
-Description:  MediaTek MT7921S wireless driver
-
-Package: kmod-mt7921u
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt792x-usb, kmod-mt7921-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 26526
-Filename: kmod-mt7921u_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27300
-SHA256sum: be6f1a0cfc26a1b941cacedd8a7a0faa550e96a9060edaf70e6b8ff24a548e54
-Description:  MediaTek MT7921U wireless driver
-
-Package: kmod-mt7922-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 1091556
-Filename: kmod-mt7922-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 1092386
-SHA256sum: ff0a0eb818cb325008d00c7554c8a854fe64c7fd59b8fba5085aa788d59c824b
-Description:  MediaTek MT7922 firmware
-
-Package: kmod-mt7925-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt792x-common, kmod-hwmon-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 93700
-Filename: kmod-mt7925-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 93571
-SHA256sum: 9811f03669d313b87c74ed5d62f9e185f20529c6aaaad41b6eaf37d6d359c871
-Description:  MediaTek MT7925 wireless driver common code
-
-Package: kmod-mt7925-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7925e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 1287638
-Filename: kmod-mt7925-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 1288697
-SHA256sum: d50e78412a7a0f33756924ff3d50bb8d022a26583e2682f1c9a9c0a1953b82a3
-Description:  MediaTek MT7925 firmware
-
-Package: kmod-mt7925e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7925-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 30782
-Filename: kmod-mt7925e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 31564
-SHA256sum: a37c5ccab48b8f4e2d12ca51db2d89d40e462cdc536421e1b8f08adf7c22a8e1
-Description:  MediaTek MT7925e wireless driver
-
-Package: kmod-mt7925u
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt792x-usb, kmod-mt7925-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 26492
-Filename: kmod-mt7925u_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 27274
-SHA256sum: 0ae4205fdb5124e48eb0b997a6bcf81538b56932f33bcd23afd07b4fa4dfe2e1
-Description:  MediaTek MT7925U wireless driver
-
-Package: kmod-mt792x-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-connac
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 47798
-Filename: kmod-mt792x-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 48532
-SHA256sum: b9dbe9f6a8a7296f6151c3dbf2e95a26bb33183248e8786e1acfa4c740c2232e
-Description:  MediaTek MT792x wireless driver common code
-
-Package: kmod-mt792x-usb
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt792x-common, kmod-mt76-usb
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 19570
-Filename: kmod-mt792x-usb_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 20412
-SHA256sum: b58fa378b87b9ffdd84163a54bc58fca845978ea4b4af0803f1982259c154509
-Description:  MediaTek MT792x wireless driver USB code
-
-Package: kmod-mt7992-23-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7996e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 2294439
-Filename: kmod-mt7992-23-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 2295696
-SHA256sum: 75d6caee1418d3fce8e0bb7f90ba2ea37a9cbe9e2d8ac5957d1471494590085c
-Description:  MediaTek MT7996 firmware (2+3 antenna variant)
-
-Package: kmod-mt7992-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7996e
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 2335159
-Filename: kmod-mt7992-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 2336441
-SHA256sum: b4b454ecc14e2de27c9988cb5245a98ff513c890709d1a86ec9f05196fd8419a
-Description:  MediaTek MT7992 firmware
-
-Package: kmod-mt7996-233-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7996e, kmod-mt7996-firmware-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 3162598
-Filename: kmod-mt7996-233-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 3164041
-SHA256sum: 03cab762c080f856e3e6c1cfefe485c1a74ccf43f644f4a7e218dc3be0f12a66
-Description:  MediaTek MT7996 firmware (2+3+3 antenna variant)
-
-Package: kmod-mt7996-firmware-common
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 191871
-Filename: kmod-mt7996-firmware-common_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 192796
-SHA256sum: 5a1031411c3b965a4c565bc1dedb18700a04642941e5ec7bd45b79b570755cc8
-Description:  MediaTek MT7996 firmware (common files)
-
-Package: kmod-mt7996-firmware
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt7996e, kmod-mt7996-firmware-common
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 3165202
-Filename: kmod-mt7996-firmware_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 3166563
-SHA256sum: 6d78048e9a72f37a865e4f9b714bb98c2f5a9544ec556a37a26284a67bb76f8b
-Description:  MediaTek MT7996 firmware
-
-Package: kmod-mt7996e
-Version: 6.6.57+2024-09-29-680bc70f-1
-Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 127134
-Filename: kmod-mt7996e_6.6.57+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 126736
-SHA256sum: 4e77c29668f1fbe8a50e1202419a54125053cec94ec92d1486f5d821fa83b357
-Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtd-rw
 Version: 6.6.57+git-20160214-2
@@ -7912,10 +7384,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, mwi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 267335
+Installed-Size: 267348
 Filename: kmod-mwifiex-pcie_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 265257
-SHA256sum: dfe079ba427ffdd6b188566363677dc0f927d7d2cb8e771cd4bddbd9edd2b1d0
+Size: 265217
+SHA256sum: 1b1cec0d92c03ca6d22b9868123a8dc29d514adf00d081dde52587f91e0bb68e
 Description:  Kernel modules for Marvell 802.11n/802.11ac PCIe Wireless cards
 
 Package: kmod-mwifiex-sdio
@@ -7924,10 +7396,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mmc, kmod-mac
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 264720
+Installed-Size: 264729
 Filename: kmod-mwifiex-sdio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 262673
-SHA256sum: 5a794fca0eca9eca2b4ea878f7b3f2c382661990c725c55db388d9bac44e6e27
+Size: 262588
+SHA256sum: f2782f4d3842124e4c7de5148631599f223b4e22b735ae5cd57ca913d0b14e4b
 Description:  Kernel modules for Marvell 802.11n/802.11ac SDIO Wireless cards
 
 Package: kmod-mwl8k
@@ -7936,10 +7408,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, mwl
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 62586
+Installed-Size: 62592
 Filename: kmod-mwl8k_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 63212
-SHA256sum: a68dbfb05ed95c8d982d1b5db5869d5a620c555f7b3189abef0f724569027580
+Size: 63237
+SHA256sum: 3cdaaf5bfe33a88cc9b35191e365d608e0876682063a04d867cc02e06100b6b8
 Description:  Kernel modules for Marvell TOPDOG 802.11 Wireless cards
 
 Package: kmod-nat46
@@ -8888,14 +8360,14 @@ Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
 
 Package: kmod-oaf
-Version: 6.6.57-1
+Version: 6.6.57+5.0.2-1
 Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: aarch64_generic
-Installed-Size: 476844
-Filename: kmod-oaf_6.6.57-1_aarch64_generic.ipk
-Size: 472892
-SHA256sum: 4c8432fba484273960a75d0be211c1df4c043b543ffa581135d2ebe7def8762b
+Installed-Size: 37063
+Filename: kmod-oaf_6.6.57+5.0.2-1_aarch64_generic.ipk
+Size: 37569
+SHA256sum: af03405fab0f071490bfe49465c5f3c00af12ce7c3c3a944839c1dca8fba158c
 Description:  open appfilter kernel module 
 
 Package: kmod-of-mdio
@@ -8993,10 +8465,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-ath9k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 3250
+Installed-Size: 3252
 Filename: kmod-owl-loader_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 4212
-SHA256sum: bd61538c361b107d7a2018b095de465ad7b0965e68af0ded4c588a8186d81cf1
+Size: 4207
+SHA256sum: 507d1f71aacf2d4eec2747220eee14e5291ae7f97989b3992be014ccd420fc9d
 Description:  Kernel module that helps to initialize certain Qualcomm
  Atheros' PCI(e) Wifi chips, which have the init data
  (which contains the PCI device ID for example) stored
@@ -9470,10 +8942,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4)
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 11593
+Installed-Size: 11592
 Filename: kmod-qcom-qmi-helpers_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 12381
-SHA256sum: ebdad318d4c8a900350a8ba6afa5679eb07a179091b668bdc6c619450ebb8b58
+Size: 12377
+SHA256sum: 81a4deee98892da72e3beee604fd14a3b055dd4d320e2d755cf6b68b552802c1
 Description:  Qualcomm QMI backports helpers
 
 Package: kmod-qlcnic
@@ -9686,10 +9158,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 27212
+Installed-Size: 27210
 Filename: kmod-rsi91x-sdio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 27998
-SHA256sum: 31605ab0b83b2161c08d8d003d3eea4d344a382265868d89e2ed2cc70885be75
+Size: 28006
+SHA256sum: ead4189d19400f771e72de8e211a05f9c2a4d28be3ccc21857ad538a5d9c5086
 Description:  Redpine Signals SDIO bus support
 
 Package: kmod-rsi91x-usb
@@ -9698,10 +9170,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-usb-core, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 20493
+Installed-Size: 20497
 Filename: kmod-rsi91x-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 21280
-SHA256sum: e9cc41c7be5659f590f848a98dd731d7ac913eb04ce9fea1af68915b6474728e
+Size: 21263
+SHA256sum: 75452b656cd0fbb4ec25cbe4f2e78b4fc0eebd610705f1a1fabfbe1586cd72ec
 Description:  Redpine Signals USB bus support
 
 Package: kmod-rsi91x
@@ -9710,10 +9182,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, rs9
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 68072
+Installed-Size: 68067
 Filename: kmod-rsi91x_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 68680
-SHA256sum: e771315e20f67cef7f4a3736c987ef0331990bc13735a01b63a58ca530f96d66
+Size: 68669
+SHA256sum: 7bd45e7c94bc77296f934cdc0646e42071ed5d58c2593d82f059def50a18decd
 Description:  Redpine Signals Inc 91x WLAN driver support
 
 Package: kmod-rt2800-lib
@@ -9722,10 +9194,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-lib, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 112275
+Installed-Size: 112279
 Filename: kmod-rt2800-lib_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 111170
-SHA256sum: 031d18710e9d682b9a723c06757989ed9abe246c93beeee29dd6a81c71f6dcfa
+Size: 111177
+SHA256sum: 450d208d38a0d48940e95eda10a43e4836847eda648ebcb8a5d2939dfb7b6b9b
 Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
 
 Package: kmod-rt2800-mmio
@@ -9734,10 +9206,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2800-lib, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 28383
+Installed-Size: 28385
 Filename: kmod-rt2800-mmio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 29170
-SHA256sum: 72a930ce236e338769a235132ea121dd572bec5b478211d8beeb51e14d938246
+Size: 29187
+SHA256sum: 04f8dad239f81f9d87f448c511dca113a6c2c581bcacf0616fdff26e7eb33a04
 Description:  Ralink Drivers for RT2x00 cards (RT28xx/RT3xxx MMIO)
 
 Package: kmod-rt2800-pci
@@ -9746,10 +9218,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-pci, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 25419
+Installed-Size: 25424
 Filename: kmod-rt2800-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 26227
-SHA256sum: bd94444be9c382dd76d2275d12ad9bedb0badd1406dddbf8f342b920681ddd8f
+Size: 26236
+SHA256sum: 77efcf1bbe03bf1d9e961acaa831dfab07e7f69e6071d4529a2a6e3f1e98a93b
 Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
 
 Package: kmod-rt2800-usb
@@ -9758,10 +9230,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-usb, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 30731
+Installed-Size: 30735
 Filename: kmod-rt2800-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 31412
-SHA256sum: f007c158801182310c0b0f55223f304ad4fb7c0c7e2436e1159218f516752e0f
+Size: 31417
+SHA256sum: 3ca5ccad30cb98bba111eac73d8977723c2acb5d4789fc964528f754e07ca783
 Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
 
 Package: kmod-rt2x00-lib
@@ -9770,10 +9242,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 63334
+Installed-Size: 63337
 Filename: kmod-rt2x00-lib_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 64019
-SHA256sum: 72a7d99322ab64aadf5d5f951a3887f1178cc60a349ed407d7fd335be9b790e9
+Size: 64026
+SHA256sum: d27b4b6f4850ea927841ba9a23a1ae264296340b7296eedc20919e478b66318a
 Description:  Ralink Drivers for RT2x00 cards (LIB)
 
 Package: kmod-rt2x00-mmio
@@ -9782,10 +9254,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-lib
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 23024
+Installed-Size: 23021
 Filename: kmod-rt2x00-mmio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 23822
-SHA256sum: 3c3581cfbdeb6e7b74a36802ddc676fb121b843b19236d35234df8f37d961be3
+Size: 23820
+SHA256sum: 52c771a246b2ccd3bbdbc2de96501d768cb86fbf09651785d6625fe88fcbc078
 Description:  Ralink Drivers for RT2x00 cards (MMIO)
 
 Package: kmod-rt2x00-pci
@@ -9794,10 +9266,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-mmio, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 22090
+Installed-Size: 22095
 Filename: kmod-rt2x00-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 22892
-SHA256sum: bc63ab3b8ecc258f1bab1b9f3ad44fed44e91a8c7b2582d95c59da9085e5e04f
+Size: 22888
+SHA256sum: f90c2b27158fed6cafc2484b95d3063d6c8e41f09cbf4e2fb8a74b5da04554a9
 Description:  Ralink Drivers for RT2x00 cards (PCI)
 
 Package: kmod-rt2x00-usb
@@ -9806,10 +9278,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rt2x00-lib, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 29769
+Installed-Size: 29770
 Filename: kmod-rt2x00-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 30570
-SHA256sum: 56ea233c78330505fe9758bf4c6d9437fbb8c5a9a7140b9dd89ab44986bf80d4
+Size: 30585
+SHA256sum: 7f1ff5784efd42ec83d1d608c04ce93005eb0251059d49e2426428dc6bd14c47
 Description:  Ralink Drivers for RT2x00 cards (USB)
 
 Package: kmod-rtc-ds1307
@@ -9988,10 +9460,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 48915
+Installed-Size: 48909
 Filename: kmod-rtl8192c-common_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 49756
-SHA256sum: 330f2761547fd73a30e657fb066a057a8a56d870edcfa62318d34be1333fae9e
+Size: 49736
+SHA256sum: 017fc9d905b1df7c492de1c0063809088b27d178d27322a70c74ba70e2ea2e0f
 Description:  Realtek RTL8192CE/RTL8192CU common support module
 
 Package: kmod-rtl8192ce
@@ -10000,10 +9472,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-pci, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 58773
+Installed-Size: 58772
 Filename: kmod-rtl8192ce_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 59487
-SHA256sum: 0b9c66d0dd519e9aa7601c71dbe6728af798e28e40cb685c54172636140e6d8d
+Size: 59488
+SHA256sum: 654a72e70159316481901cb18d69928ecd2fecf29cdf54832250aae1b6b40398
 Description:  Realtek RTL8192CE/RTL8188CE support
 
 Package: kmod-rtl8192cu
@@ -10012,10 +9484,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-usb, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 61986
+Installed-Size: 61984
 Filename: kmod-rtl8192cu_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 62506
-SHA256sum: 35d155c5206dd3516853267b6212f6c71c6d430f8d9db5a511f533638c60815a
+Size: 62515
+SHA256sum: 90354e4ee2d0bb85fe3703e763f5c38757131eb39deb192167d4f3ceaf1f10a1
 Description:  Realtek RTL8192CU/RTL8188CU support
 
 Package: kmod-rtl8192d-common
@@ -10024,10 +9496,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 56540
+Installed-Size: 56541
 Filename: kmod-rtl8192d-common_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 57231
-SHA256sum: 614d0f2ec2b0dd4cb053add3e680e4707e3d1d52b3b0e32883d11a71c3f2c62e
+Size: 57233
+SHA256sum: 1c70a436dcdb4bc2d0edf00dd10575c758708930c4323d0a58835719b192b248
 Description:  Realtek RTL8192DE/RTL8192DU common support module
 
 Package: kmod-rtl8192de
@@ -10036,11 +9508,23 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-pci, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 60702
+Installed-Size: 60701
 Filename: kmod-rtl8192de_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 61387
-SHA256sum: 8d705d57165b328f75fbaacf93a5cfc2813bfb4fe0afc1eac2d50298f941aa3a
+Size: 61392
+SHA256sum: 06228ba4aef81d45c2eafba96893b31f4f3458bbcdaade80499dfcfa1399d7ac
 Description:  Realtek RTL8192DE/RTL8188DE support
+
+Package: kmod-rtl8192du
+Version: 6.6.57+6.11-1
+Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-usb, kmod-rtl8192d-common, rtl8192du-firmware
+License: GPL-2.0-only
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 59446
+Filename: kmod-rtl8192du_6.6.57+6.11-1_aarch64_generic.ipk
+Size: 60261
+SHA256sum: afb4b6a10d99e0adce42b6f7869ad8fed491100fdb2357d21a52dc9ccea39b89
+Description:  Realtek RTL8192DU support
 
 Package: kmod-rtl8192se
 Version: 6.6.57+6.11-1
@@ -10048,10 +9532,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-pci, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 67669
+Installed-Size: 67672
 Filename: kmod-rtl8192se_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 68359
-SHA256sum: b906e09a7c928374f254a735192bf92b532261eb2bfd974985fb1ac154c09e4e
+Size: 68360
+SHA256sum: 667b4342c5f2a7c8180f937425e45af25c5d73683aa70295fb0295013cd29a10
 Description:  Realtek RTL8192SE/RTL8191SE support
 
 Package: kmod-rtl8723-common
@@ -10060,10 +9544,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 31221
+Installed-Size: 31218
 Filename: kmod-rtl8723-common_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 32054
-SHA256sum: da349e3e190dff238271eb7477f85e4ca358b81fcdba8aaa2ac5594f14f0bdbc
+Size: 32039
+SHA256sum: cc64de680d806a4c8c357f5bddbfc533c9eb20c5a81a8f254fedfd04b2e0d157
 Description:  Realtek RTL8723AE/RTL8723BE common support module
 
 Package: kmod-rtl8723be
@@ -10072,10 +9556,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi-btcoe
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 75815
+Installed-Size: 75813
 Filename: kmod-rtl8723be_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 76319
-SHA256sum: 12c4c7b06f8d8b5447e5c72ab338ae118f1ccfa9d618173d55c676dd6f14d6b7
+Size: 76315
+SHA256sum: fac04f2c9020d57796dedefd92f5f124dacc6b9220a7880d158cfe90400fc732
 Description:  Realtek RTL8723AE/RTL8723BE support
 
 Package: kmod-rtl8723bs
@@ -10084,10 +9568,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mmc, kmod-mac
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 382977
+Installed-Size: 382972
 Filename: kmod-rtl8723bs_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 377474
-SHA256sum: b513ea53c1fa1cf7d6c497feffa3eab30553e3433fd37e92428464d14db90c1e
+Size: 377521
+SHA256sum: 1794879578a67d1a08e4f11344a0dd13058197ddc651b84caccc10a84c706639
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
@@ -10098,10 +9582,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-cfg80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 1323395
+Installed-Size: 1323397
 Filename: kmod-rtl8812au-ac_6.6.57+2023-07-23-04f600ee-1_aarch64_generic.ipk
-Size: 1229786
-SHA256sum: 1da0a7c0124fc3bf5dca6437ea5eb678e7b6f3829ef7aa158e0d196f2c557212
+Size: 1229963
+SHA256sum: 5f7ae0eff0b55ba50e05c9b137e145fedeb542997589fa5fba10a27eacd8c457
 Description:  Realtek rtl8812au/21au and rtl8814au driver
 
 Package: kmod-rtl8812au-ct
@@ -10111,10 +9595,10 @@ Provides: kmod-rtl8812au
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 787656
+Installed-Size: 787649
 Filename: kmod-rtl8812au-ct_6.6.57+2022-10-26-9b2b203a-1_aarch64_generic.ipk
-Size: 736929
-SHA256sum: 3f975bd5bf1cc75ac1cc533f6e399e6e29ce9e0521fc7bc1b5867cdd869eb04b
+Size: 736843
+SHA256sum: c8194886052ffb9bb336d87b0f408cb14a2d71b791c3103c0b0a68e77be89cd8
 Description:  Driver for Realtek 8812 AU devices comfast 912-ac, etc
 
 Package: kmod-rtl8821ae
@@ -10125,8 +9609,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 130081
 Filename: kmod-rtl8821ae_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 116366
-SHA256sum: d3138dc89bf7c3bdd4c6698c66a4f77ead4023757503a8a205e0d6162c31649b
+Size: 116360
+SHA256sum: 713d6c24781ed55c4ee67639d271f1a93483e363ae435c000f5e14ca959f8437
 Description:  Realtek RTL8821AE support
 
 Package: kmod-rtl8xxxu
@@ -10135,10 +9619,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-usb-core, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 183712
+Installed-Size: 183716
 Filename: kmod-rtl8xxxu_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 177025
-SHA256sum: 7d44bc0f09b7ff448f509ad1b5af6783a06073aeaedd78813548956efb6140b1
+Size: 177013
+SHA256sum: 943cf2ccdacca8e40b6f1d5d2c1de42409698c5777b731a77d2c9c7111206193
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -10167,10 +9651,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 111711
+Installed-Size: 111715
 Filename: kmod-rtlwifi-btcoexist_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 110883
-SHA256sum: 5908e4d1e84332865d92d960bc41c01923b57005d9ea744f534831b3694dfc89
+Size: 110894
+SHA256sum: fc947562dd0fe1170a4d602b62acea21aca17e8040c4a3972dd5038608cdafef
 Description:  Realtek BT coexist support
 
 Package: kmod-rtlwifi-pci
@@ -10179,10 +9663,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 49398
+Installed-Size: 49403
 Filename: kmod-rtlwifi-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 50143
-SHA256sum: 1de3b5dab76ce2f84995cc339722a1562759723e02d2452e3ed4121be2bde5eb
+Size: 50151
+SHA256sum: f11c92b0e3ac93422b45a59eabbf849c2663bc70107a724e6d0207b3ab921340
 Description:  Realtek common driver part (PCI support)
 
 Package: kmod-rtlwifi-usb
@@ -10191,10 +9675,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-usb-core, kmo
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 40675
+Installed-Size: 40680
 Filename: kmod-rtlwifi-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 41490
-SHA256sum: 32e57b01a1d98d5eca81ac29ecaa5172f1d657b597ac749a676d240fef182dc4
+Size: 41499
+SHA256sum: 32b964e0a8211f691c508ceaef594c5db01799d8803dcad28f800911f24096c0
 Description:  Realtek common driver part (USB support)
 
 Package: kmod-rtlwifi
@@ -10203,10 +9687,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 92538
+Installed-Size: 92541
 Filename: kmod-rtlwifi_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 92881
-SHA256sum: 624626b39d3f429728aaaf3a83c2563a1d2b2ea4d8e0fdb8437bebbc15e5fbc2
+Size: 92864
+SHA256sum: b7e603525fe79526445d03bd18c9765eeec7ae1753f3cb13204355cc43196cda
 Description:  Realtek common driver part
 
 Package: kmod-rtw88-8723d
@@ -10215,10 +9699,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-8723x, 
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 37631
+Installed-Size: 37635
 Filename: kmod-rtw88-8723d_6.6.57+6.11-1_aarch64_generic.ipk
 Size: 38227
-SHA256sum: a63cf1f00b608665b72d68a19e03edb76d3e870a2a9f451785256f3b4ac88dd7
+SHA256sum: a3925fb824e0f5a53aaab9dd468d415661d6f6cbfdaa6c5a0b26de50a61c76c6
 Description:  Realtek RTL8723D family support
 
 Package: kmod-rtw88-8723de
@@ -10227,10 +9711,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-pci, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7729
+Installed-Size: 7739
 Filename: kmod-rtw88-8723de_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8572
-SHA256sum: 0f48102f65d2274cf05d874d60789b4e243cef09ae8b526aff8b55c5a541e972
+Size: 8576
+SHA256sum: ec774c22d7bd5b4c75aabc30e72e9ca0e105946630ba8f24a64998d32d0b4ee6
 Description:  Realtek RTL8723DE support
 
 Package: kmod-rtw88-8723ds
@@ -10239,10 +9723,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-sdio, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7598
+Installed-Size: 7605
 Filename: kmod-rtw88-8723ds_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8431
-SHA256sum: a97a83b5af62483889c403a758bf2071d1a332b330a57b3159b50b5c03740c3e
+Size: 8435
+SHA256sum: 7fb834f9773fa9e9e1e84834727721a212e6f59b9066e52237c0d4282fbfa1e2
 Description:  Realtek RTL8723DS support
 
 Package: kmod-rtw88-8723du
@@ -10251,10 +9735,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-usb, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7775
+Installed-Size: 7782
 Filename: kmod-rtw88-8723du_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8622
-SHA256sum: 944a24305627cad797129c56c45fbfb070003e79cde94080d1108ed786e9c898
+Size: 8620
+SHA256sum: b85dbc8467e66317e3c19411ec028507af15e4cbeafe3169993fa35642a391ad
 Description:  Realtek RTL8723DU support
 
 Package: kmod-rtw88-8723x
@@ -10263,10 +9747,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 28174
+Installed-Size: 28179
 Filename: kmod-rtw88-8723x_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 28945
-SHA256sum: 01f3b7d59d2e6523d4a81647d55e64440745c34f74e7ee230a6b246caa5a15db
+Size: 28950
+SHA256sum: e443b9c70e3d440a78bde4f9671c34bd40cdc9ee09d4b6f47cc7eeda2b10ec4f
 Description:  Realtek RTL8723x family support
 
 Package: kmod-rtw88-8821c
@@ -10275,10 +9759,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88, rtl882
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 49663
+Installed-Size: 49660
 Filename: kmod-rtw88-8821c_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 48081
-SHA256sum: 8bc1803619dc25a06c05f0d443c90c514de61d43a19c53c91ed3912fb03cccf2
+Size: 48063
+SHA256sum: 95d6ef1ea96c5b43c17224c4298d7696fa01a58d1ac49ce3a12be16eee14f52f
 Description:  Realtek RTL8821C family support
 
 Package: kmod-rtw88-8821ce
@@ -10287,10 +9771,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-pci, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7731
+Installed-Size: 7741
 Filename: kmod-rtw88-8821ce_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8574
-SHA256sum: 716265df5a19698951c9db72984e38d0217eea5e34b4656317b9dda79bb4e899
+Size: 8586
+SHA256sum: 1326357acb882515d4e72b46e0b5bd7f80045fae8e3af91ffd89a25821c1ac84
 Description:  Realtek RTL8821CE support
 
 Package: kmod-rtw88-8821cu
@@ -10299,10 +9783,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-usb, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7868
+Installed-Size: 7876
 Filename: kmod-rtw88-8821cu_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8705
-SHA256sum: 51a5af00a0569947cdc79658ead8f9d251de8c3b94f165bdc980dc513e7e7a4a
+Size: 8711
+SHA256sum: c9b1e5b6be6841b8aea43a5c2b3e3042aeff8ef94cdc566765aea728b5d5e079
 Description:  Realtek RTL8821CU support
 
 Package: kmod-rtw88-8822b
@@ -10311,10 +9795,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88, rtl882
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 63183
+Installed-Size: 63186
 Filename: kmod-rtw88-8822b_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 59859
-SHA256sum: 5d0be0d43f876617540b3297aec946d8b9362471b7b89e6234e42742d513e1d1
+Size: 60014
+SHA256sum: 5cb838ac25f57f94c1997036dd4fad9c15598babc96078fda2a2f77f35be7d05
 Description:  Realtek RTL8822B family support
 
 Package: kmod-rtw88-8822be
@@ -10323,10 +9807,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-pci, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7729
+Installed-Size: 7737
 Filename: kmod-rtw88-8822be_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8566
-SHA256sum: 0906170399a67b0b82d046b2a9b190bba4c0063dc4c43af9e5c42c7c8c8306a0
+Size: 8570
+SHA256sum: ef44cc30dc4da03e45ca5ffadb6686bdaf58cfe1100511d23f7ea63478661164
 Description:  Realtek RTL8822BE support
 
 Package: kmod-rtw88-8822bu
@@ -10335,10 +9819,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-usb, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7980
+Installed-Size: 7989
 Filename: kmod-rtw88-8822bu_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8806
-SHA256sum: 545cd3e06f22f51c8d266e1c773f8a2ef0a6bfdefc97d1d8a90b1f4ee4fcdb69
+Size: 8815
+SHA256sum: 44ab6b7b04a363b95816499b824de2fdc8802a4a6ddb180df3a6096ae732efce
 Description:  Realtek RTL8822BU support
 
 Package: kmod-rtw88-8822c
@@ -10347,10 +9831,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88, rtl882
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 91996
+Installed-Size: 91999
 Filename: kmod-rtw88-8822c_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 83540
-SHA256sum: 2a2818a3bcf9d449128245a8a77de09651c6dd3bd0b17023a685e8ab679a2850
+Size: 83207
+SHA256sum: 8bb4a60d2adc99b66c29e990fbc7456208775a425c40fd0387f81c5f5cec257f
 Description:  Realtek RTL8822C family support
 
 Package: kmod-rtw88-8822ce
@@ -10359,10 +9843,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-pci, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7725
+Installed-Size: 7734
 Filename: kmod-rtw88-8822ce_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8563
-SHA256sum: 3abcf89e63abc0723ca89fb9d86f075b98bb32c076e37a9e483c5e4da3ea1c6d
+Size: 8580
+SHA256sum: 414ef5f7b106d041a695543479f2a528a86f8e04c07d3530c4eefea77a1c853b
 Description:  Realtek RTL8822CE support
 
 Package: kmod-rtw88-8822cu
@@ -10371,10 +9855,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88-usb, km
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 7806
+Installed-Size: 7814
 Filename: kmod-rtw88-8822cu_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 8647
-SHA256sum: 0504a61a53a36f68208a530aa38d76a33f1fc9ef175fefe373117b0f495863a3
+Size: 8660
+SHA256sum: 012bd9235e5f7cb275193a024c83693479d6626ab664230e641b002f0db649b2
 Description:  Realtek RTL8822CU support
 
 Package: kmod-rtw88-pci
@@ -10385,8 +9869,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 41865
 Filename: kmod-rtw88-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 42706
-SHA256sum: a80c723e15fdeb47a7b4f838011316be377bf4ea0c41e54cdce31416c1f5c77a
+Size: 42710
+SHA256sum: ee738ba4d4396b5a1c6927621af77e81b05a073dc987bb9f1cc54e58da8de272
 Description:  Realtek RTW88 PCI chips support
 
 Package: kmod-rtw88-sdio
@@ -10395,10 +9879,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mmc, kmod-rtw
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 37146
+Installed-Size: 37147
 Filename: kmod-rtw88-sdio_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 37901
-SHA256sum: 265db115b22fd7a82bfc0733848d59764d7a20deb27c09008019dcd25859247a
+Size: 37914
+SHA256sum: c628855bf1a89917a09bd3ae66dad7ac9a9dbfe5e68da69a6ae610853dcb1213
 Description:  Realtek RTW88 SDIO chips support
 
 Package: kmod-rtw88-usb
@@ -10407,10 +9891,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw88, kmod-u
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 36114
+Installed-Size: 36117
 Filename: kmod-rtw88-usb_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 36754
-SHA256sum: 120e1a17397db5aa8d14c98e4141c76d07022af24fb39e3928f7e9ec3664cc13
+Size: 36746
+SHA256sum: cb3c51d4125f36e7a64cebb6c22c845e1692835056571c4aa9d882819d95afc8
 Description:  Realtek RTW88 USB chips support
 
 Package: kmod-rtw88
@@ -10419,10 +9903,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 140002
+Installed-Size: 140004
 Filename: kmod-rtw88_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 139512
-SHA256sum: ffe786278bc3baf6eedffcfe7e0eaa7ba25c8b5b4965fa1773aaa9a334747ee0
+Size: 139486
+SHA256sum: 9a047b41bc7335515e4a4df4c50343d960a371e66a59769ee76a3ca246597230
 Description:  Realtek RTW88 common part
 
 Package: kmod-rtw89-8851be
@@ -10431,10 +9915,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89-pci, rt
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 157980
+Installed-Size: 157984
 Filename: kmod-rtw89-8851be_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 154691
-SHA256sum: 3837a77689d5a11a4016181f4d882dad117e01204b9ea1a65eca24ddd860f3c3
+Size: 154775
+SHA256sum: 1512736a3ec6a4ef19616346bf050dd7267078ad401577163a4f9ff6e034cef5
 Description:  Realtek RTL8851BE support
 
 Package: kmod-rtw89-8852ae
@@ -10443,10 +9927,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89-pci, rt
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 181068
+Installed-Size: 181072
 Filename: kmod-rtw89-8852ae_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 169212
-SHA256sum: 7fbcaca0542998082d4d1f7f9d06958d2fa93a9e29e4239d548e25f61ac39d1a
+Size: 169095
+SHA256sum: 685f335f49b5d0c78c61883f413d839aca7e94a1e7f53d615502fabf61fcf513
 Description:  Realtek RTL8852AE support
 
 Package: kmod-rtw89-8852b-common
@@ -10455,10 +9939,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89-pci
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 68959
+Installed-Size: 68958
 Filename: kmod-rtw89-8852b-common_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 68874
-SHA256sum: ec75ab7ee8424ee68e8b6ea67eeb571127ce9555efd2fea849e1e78976157d39
+Size: 68875
+SHA256sum: 1966cbe4d486d5b7d2d36ee757cb60e3ab0528f13e384b86e766e2e2fb205049
 Description:  Realtek RTL8852B family support
 
 Package: kmod-rtw89-8852be
@@ -10467,10 +9951,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89-8852b-c
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 158093
+Installed-Size: 158097
 Filename: kmod-rtw89-8852be_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 152338
-SHA256sum: 5d637d21ef6c5edced84c3516bbd47ada9345745289be87b49f581cc3ac08d80
+Size: 152230
+SHA256sum: 8567f71d650ce063f9f546132d8088a1141cd979be61004928ab196acc0eb2c9
 Description:  Realtek RTL8852BE support
 
 Package: kmod-rtw89-8852ce
@@ -10481,9 +9965,21 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 201910
 Filename: kmod-rtw89-8852ce_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 191570
-SHA256sum: 6c43babba00334e03f1efbb43638bb833f4a31e876d1512f7f1b9cf522daf498
+Size: 191476
+SHA256sum: 159c66c4d8438c3a0ab28e614f7a9c843c2dccff2c598f11feecdaf4e22dc5bc
 Description:  Realtek RTL8852CE support
+
+Package: kmod-rtw89-8922ae
+Version: 6.6.57+6.11-1
+Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89-pci, rtl8922ae-firmware
+License: GPL-2.0-only
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 114372
+Filename: kmod-rtw89-8922ae_6.6.57+6.11-1_aarch64_generic.ipk
+Size: 114777
+SHA256sum: 14c9519081f132702a3d3e0ac6334e0abb1581e4cea08ecc8daef790aaad7185
+Description:  Realtek RTL8922AE support
 
 Package: kmod-rtw89-pci
 Version: 6.6.57+6.11-1
@@ -10491,10 +9987,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-rtw89
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 77404
+Installed-Size: 77412
 Filename: kmod-rtw89-pci_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 77840
-SHA256sum: f39b5872431fac22868569d59dc7ea400ca79c61cdf76087878e80760b626186
+Size: 77858
+SHA256sum: e57798ae12072ac881620b4e643ac00c3f83e56c774d47d6910cda926b5100e5
 Description:  Realtek RTW89 PCI chips support
 
 Package: kmod-rtw89
@@ -10503,10 +9999,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 357570
+Installed-Size: 357575
 Filename: kmod-rtw89_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 353625
-SHA256sum: 40d0d2cbc4b2661f18af08d98983ffb69352179fd8abf37321976f88abf7cf93
+Size: 353655
+SHA256sum: d160deb8c2137ae07da47d922e10ad969050425e997395456f975695ab55ab75
 Description:  Realtek RTW89 core
 
 Package: kmod-saradc-rockchip
@@ -13793,10 +13289,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mac80211, wil
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 200164
+Installed-Size: 200186
 Filename: kmod-wil6210_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 197600
-SHA256sum: c6d6b1006de6c70a4bf9f0ef0467bda355cd5d1e084aeef5303300d7f70b3e5c
+Size: 197543
+SHA256sum: 22d91568bd25a660dba732553cf49c213a59a8e73763796d0469d01b68f7b9e4
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -13822,10 +13318,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-wlcore, wl12x
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 52189
+Installed-Size: 52194
 Filename: kmod-wl12xx_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 51862
-SHA256sum: fd8347478e1111dc2b52f2dad2a05b1c9dedeb0087c251d4c2087b0b2b32bbad
+Size: 51869
+SHA256sum: 81c820be9a06596eee93ab3c6adb0ac1a0f4f3d655a9539211d821cd447b77e5
 Description:  Kernel modules for TI WL12xx
 
 Package: kmod-wl18xx
@@ -13834,10 +13330,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-wlcore, wl18x
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 71708
+Installed-Size: 71725
 Filename: kmod-wl18xx_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 69825
-SHA256sum: 6638fc98601871ed7ceb6ec4265522605b9c5d9dc4dda51a3a6f09c2f2a07c5c
+Size: 69841
+SHA256sum: fa7239e733e352999d8f2d459e55847baf2e9d43e418fb26f1d91147ee4b0e1e
 Description:  Kernel modules for TI WL18xx
 
 Package: kmod-wlcore
@@ -13846,10 +13342,10 @@ Depends: kernel (=6.6.57-1-c2d88dd0b5dd309ed40474e783becfb4), kmod-mmc, kmod-mac
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 178300
+Installed-Size: 178302
 Filename: kmod-wlcore_6.6.57+6.11-1_aarch64_generic.ipk
-Size: 177049
-SHA256sum: a66166f52702d853842492c83b13b5cfa795237992a0a2fe71a82fcda306df32
+Size: 177063
+SHA256sum: da406b2b0c93964c86cc2e3e9ef87771d877ab3e0924d52abbbcafa7ba5e44cd
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-wwan
@@ -14079,25 +13575,25 @@ SHA256sum: d064cb3d705431ad4f8f1a020e65f8f30ef2cf1092cfdebe5cd03f463b6f0adf
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mt7601u-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 26436
-Filename: mt7601u-firmware_20240909-1_aarch64_generic.ipk
-Size: 27149
-SHA256sum: ee0ddb6a43a96668ec0b2a444ea613f825345b37f2535db69d0947d0ed46f737
+Installed-Size: 26438
+Filename: mt7601u-firmware_20241017-1_aarch64_generic.ipk
+Size: 27152
+SHA256sum: 851e028c25a85ccc12ff7e68d39f69755566c599b3d3521b851ada1501d59747
 Description:  MediaTek MT7601U firmware
 
 Package: mt7988-2p5g-phy-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 40173
-Filename: mt7988-2p5g-phy-firmware_20240909-1_aarch64_generic.ipk
-Size: 40753
-SHA256sum: 98799b46bc071d9abe311f3d023e173896b5ddc1c3c9946c1a055a1ee611f24d
+Installed-Size: 40174
+Filename: mt7988-2p5g-phy-firmware_20241017-1_aarch64_generic.ipk
+Size: 40745
+SHA256sum: 79b71094dcbfe50c501dd696e7767edc6142716afd4f1ec112d21df08e2e768d
 Description:  MT7988 built-in 2.5G Ethernet PHY firmware
 
 Package: mtd
@@ -14114,36 +13610,36 @@ Description:  This package contains an utility useful to upgrade from other firm
  older OpenWrt releases.
 
 Package: mwifiex-pcie-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 514902
-Filename: mwifiex-pcie-firmware_20240909-1_aarch64_generic.ipk
-Size: 515537
-SHA256sum: 5e5f79c119bc73cdc4102d62df56c0c82508cafcffb2f89a69384382e3862573
+Installed-Size: 514897
+Filename: mwifiex-pcie-firmware_20241017-1_aarch64_generic.ipk
+Size: 515499
+SHA256sum: 31dba9d810d83a15f5c1909097a30582e296036c28c899847ce7417ffc13d0c0
 Description:  Marvell 8897 firmware
 
 Package: mwifiex-sdio-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 876717
-Filename: mwifiex-sdio-firmware_20240909-1_aarch64_generic.ipk
-Size: 876994
-SHA256sum: 2c22fd5c236cc0c3583b92e4d7af85b89d8e7b34947521ab0945f769242510b4
+Installed-Size: 876715
+Filename: mwifiex-sdio-firmware_20241017-1_aarch64_generic.ipk
+Size: 876992
+SHA256sum: 60f0731002bd17c7af426f203e0d9b3058a813d25e31fe3d4dfce09b57418dfa
 Description:  Marvell 8887/8997 firmware
 
 Package: mwl8k-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
 Installed-Size: 192356
-Filename: mwl8k-firmware_20240909-1_aarch64_generic.ipk
-Size: 193201
-SHA256sum: 9cacc14f9ed0138be5ccbb04d1aeb1c86ef5badb3b35f502ddcd1038079e85ed
+Filename: mwl8k-firmware_20241017-1_aarch64_generic.ipk
+Size: 193194
+SHA256sum: 90d84f7ff59e5d9d0e07e662cb1bbe2efe78d3c2bbb378cf10d434dddb799ec6
 Description:  Marvell 8366/8687 firmware
 
 Package: natflow
@@ -14182,213 +13678,235 @@ SHA256sum: 87c9762c09eb89533ed1f85bd4fe8603cee33b61cc9169c04f43ffb601784655
 Description:  A simple QoS solution based eBPF + CAKE
 
 Package: r8152-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 10167
-Filename: r8152-firmware_20240909-1_aarch64_generic.ipk
-Size: 10886
-SHA256sum: a99bab3da359ee46898d12c3e4aa01e9799d987fcc1c1081611b7bb20517205d
+Installed-Size: 10164
+Filename: r8152-firmware_20241017-1_aarch64_generic.ipk
+Size: 10880
+SHA256sum: dbff27f31b7bcdb6b8074d2ebad35c62b03d2237f364ba7a5ce709d5236e78c4
 Description:  RealTek RTL8152 firmware
 
 Package: r8169-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 36540
-Filename: r8169-firmware_20240909-1_aarch64_generic.ipk
-Size: 37131
-SHA256sum: b0ef2953221ea611d435df26b1e1389133b8cbe6430e4a9ebf8ae85aaeae1690
+Installed-Size: 41700
+Filename: r8169-firmware_20241017-1_aarch64_generic.ipk
+Size: 42304
+SHA256sum: 15ae1d27d380a43966d472f8f9859ce839e79a1004c45d5541a676c2506e14f6
 Description:  RealTek RTL8169 firmware
 
 Package: rs9113-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 84653
-Filename: rs9113-firmware_20240909-1_aarch64_generic.ipk
-Size: 85225
-SHA256sum: d36b6926ee38f125665101a297776f3a625ca95330681e71a5aad34062b511c2
+Installed-Size: 84652
+Filename: rs9113-firmware_20241017-1_aarch64_generic.ipk
+Size: 85215
+SHA256sum: 91c11bdf6b399ae8a8aa04a85e96cfb6356473edda6f4285b8eb5e4db435529f
 Description:  RedPine Signals rs9113 firmware
 
 Package: rt2800-pci-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
 Installed-Size: 3958
-Filename: rt2800-pci-firmware_20240909-1_aarch64_generic.ipk
-Size: 4687
-SHA256sum: 0c4296405b92fdf7fbd30c912b14f83fa39060e5f546c9d49e79836dd3ade33f
+Filename: rt2800-pci-firmware_20241017-1_aarch64_generic.ipk
+Size: 4690
+SHA256sum: f93df7525ec975f57ef5b3f1a171475e144c7b6dca6540548cefa6886f8ec7fd
 Description:  Ralink RT28xx/3xxx PCI/SoC firmware
 
 Package: rt2800-usb-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 2929
-Filename: rt2800-usb-firmware_20240909-1_aarch64_generic.ipk
-Size: 3643
-SHA256sum: 8cfc6d6731d009624770536905449cd51fd8c51cbfecf2e1a90018b2eac695dc
+Installed-Size: 2927
+Filename: rt2800-usb-firmware_20241017-1_aarch64_generic.ipk
+Size: 3640
+SHA256sum: b4329395c6b655389b174577704baf03c7ae4719514f12b378bdc4b41f78a64b
 Description:  Ralink RT28xx/3xxx USB firmware
 
 Package: rtl8192ce-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
 Installed-Size: 20750
-Filename: rtl8192ce-firmware_20240909-1_aarch64_generic.ipk
-Size: 21458
-SHA256sum: ac8d3751b8109ad2dab49d5d6e3599bf48fd3c6da00e8169a17ab7dfcb4002ee
+Filename: rtl8192ce-firmware_20241017-1_aarch64_generic.ipk
+Size: 21461
+SHA256sum: d5fa2a3a314d97c7bed9ed3fcc9779586c0a5dd4b1c854097ffcfdb88367489b
 Description:  RealTek RTL8192CE firmware
 
 Package: rtl8192cu-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 18704
-Filename: rtl8192cu-firmware_20240909-1_aarch64_generic.ipk
-Size: 19465
-SHA256sum: 03ea5d1ef374fd5a088fa11faab1854ce5b019dedfcc33abae9f4898adca0406
+Installed-Size: 18705
+Filename: rtl8192cu-firmware_20241017-1_aarch64_generic.ipk
+Size: 19460
+SHA256sum: da69ddd2b43b7956a2c96251e11ea77cb70a3608329bf3f30ce15a92fc76177b
 Description:  RealTek RTL8192CU firmware
 
 Package: rtl8192de-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 13524
-Filename: rtl8192de-firmware_20240909-1_aarch64_generic.ipk
-Size: 14250
-SHA256sum: 3d70004d84493da591568433dc8aea6a9394511cbac7907424c72b8c87426949
+Installed-Size: 13522
+Filename: rtl8192de-firmware_20241017-1_aarch64_generic.ipk
+Size: 14253
+SHA256sum: ad64ce37a62d5587a755142c3d53cccc347df383f0b38799dcfbb72a2b6b2b6b
 Description:  RealTek RTL8192DE firmware
 
-Package: rtl8192se-firmware
-Version: 20240909-1
+Package: rtl8192du-firmware
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 36770
-Filename: rtl8192se-firmware_20240909-1_aarch64_generic.ipk
-Size: 37446
-SHA256sum: d67f49d14ebacc9d2145445ab29eac478913195541652231977894268a406b86
+Installed-Size: 13750
+Filename: rtl8192du-firmware_20241017-1_aarch64_generic.ipk
+Size: 14476
+SHA256sum: b888b42b532f23d19bc07a88641e7d5d1f6319d89ae93897c689735ff11056db
+Description:  RealTek RTL8192DU firmware
+
+Package: rtl8192se-firmware
+Version: 20241017-1
+Depends: libc
+Section: firmware
+Architecture: aarch64_generic
+Installed-Size: 36767
+Filename: rtl8192se-firmware_20241017-1_aarch64_generic.ipk
+Size: 37462
+SHA256sum: c7b5b2a3385168447b25cabe5af05cb135c8749ba396eb55344f689d049ea74c
 Description:  RealTek RTL8192SE firmware
 
 Package: rtl8723be-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 35960
-Filename: rtl8723be-firmware_20240909-1_aarch64_generic.ipk
-Size: 36735
-SHA256sum: 0065f31fae15d4d7407b4e286b4c3bfb5abbd7d11d17859def3a70ff4006c9e1
+Installed-Size: 35959
+Filename: rtl8723be-firmware_20241017-1_aarch64_generic.ipk
+Size: 36733
+SHA256sum: 09c435480079dd4fbf0da662e3aa61708ea4b431164ffba87cb8a69e764080c7
 Description:  RealTek RTL8723BE firmware
 
 Package: rtl8723de-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 18871
-Filename: rtl8723de-firmware_20240909-1_aarch64_generic.ipk
-Size: 19577
-SHA256sum: bb8a9aef4857f13549fbbdcd7a308177851cb12cc53d42067cb25c019529e935
+Installed-Size: 18868
+Filename: rtl8723de-firmware_20241017-1_aarch64_generic.ipk
+Size: 19582
+SHA256sum: cb8b6dab223597a961ec3e94e2f6b75081ebb21f0bb31f65401125a415650ce5
 Description:  RealTek RTL8723DE firmware
 
 Package: rtl8821ae-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 27900
-Filename: rtl8821ae-firmware_20240909-1_aarch64_generic.ipk
-Size: 28598
-SHA256sum: dc1cb7ed9085e5a41c76f93efd01bbfbc5e7a15f76dbcbef87e30940133c01b1
+Installed-Size: 27898
+Filename: rtl8821ae-firmware_20241017-1_aarch64_generic.ipk
+Size: 28600
+SHA256sum: 2fc1e2070e693573c180d9a8e330184910c35a0a7092156c467db296fc1329ee
 Description:  RealTek RTL8821AE firmware
 
 Package: rtl8821ce-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 57343
-Filename: rtl8821ce-firmware_20240909-1_aarch64_generic.ipk
-Size: 58023
-SHA256sum: 057915f85474dc1e5e0442cb63047b3339c978c2af6a3c265f6659f42c021a8e
+Installed-Size: 57339
+Filename: rtl8821ce-firmware_20241017-1_aarch64_generic.ipk
+Size: 58022
+SHA256sum: 1b1077ffbab2669ab2138371e522cbbbff96996413bc98898cbc769e1c94859b
 Description:  RealTek RTL8821CE firmware
 
 Package: rtl8822be-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 82174
-Filename: rtl8822be-firmware_20240909-1_aarch64_generic.ipk
-Size: 82968
-SHA256sum: 4e46c6d6c268463223f64a63d485b4475fb83596a260d27ae94cca5f4c1bccb7
+Installed-Size: 82172
+Filename: rtl8822be-firmware_20241017-1_aarch64_generic.ipk
+Size: 82967
+SHA256sum: 3ecd48e9a1214f871144d33431bc0406ee45ac9dccc4ffe3cdc61805e0057147
 Description:  RealTek RTL8822BE firmware
 
 Package: rtl8822ce-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 161934
-Filename: rtl8822ce-firmware_20240909-1_aarch64_generic.ipk
-Size: 162587
-SHA256sum: bff20f634841595f7531c4a1760db5e2e05b33bb35d471e32b6ae68ad555dde9
+Installed-Size: 161935
+Filename: rtl8822ce-firmware_20241017-1_aarch64_generic.ipk
+Size: 162598
+SHA256sum: 331e39f7ce5e63279fa4819fe6e62b54948b20abbd44b7add77002857abd0341
 Description:  RealTek RTL8822CE firmware
 
 Package: rtl8851be-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 597079
-Filename: rtl8851be-firmware_20240909-1_aarch64_generic.ipk
-Size: 597719
-SHA256sum: 2bec77b564332eebadff1ee166fd98a6ec7c8427e17fb01bf32221b8b3ea99c8
+Installed-Size: 597077
+Filename: rtl8851be-firmware_20241017-1_aarch64_generic.ipk
+Size: 597704
+SHA256sum: cea998aadb568b1422169eeed8cd6341f04ceaed5ec79710a1facb61d6aefcf3
 Description:  RealTek RTL8851BE firmware
 
 Package: rtl8852ae-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 663976
-Filename: rtl8852ae-firmware_20240909-1_aarch64_generic.ipk
-Size: 664726
-SHA256sum: 04a6aa7a78480bb403ac8461d400734bf4980c3e2b3d36044d7ab445ea509f65
+Installed-Size: 663973
+Filename: rtl8852ae-firmware_20241017-1_aarch64_generic.ipk
+Size: 664679
+SHA256sum: e5962d7373059d8e46e9925a262d81662b8b714c486b908bc589bb77656951ef
 Description:  RealTek RTL8852AE firmware
 
 Package: rtl8852be-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 1164473
-Filename: rtl8852be-firmware_20240909-1_aarch64_generic.ipk
-Size: 1164932
-SHA256sum: 140e7dca50ec6da4ce97fe6e50b1bdedca161bb55b69454d5fa1ec94e7247ae9
+Installed-Size: 638296
+Filename: rtl8852be-firmware_20241017-1_aarch64_generic.ipk
+Size: 639029
+SHA256sum: fbda21a128d19baca9ee3dee6287b85ac98c66e34a7de3dd0e47734300242c0e
 Description:  RealTek RTL8852BE firmware
 
 Package: rtl8852ce-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
 Installed-Size: 829809
-Filename: rtl8852ce-firmware_20240909-1_aarch64_generic.ipk
-Size: 829640
-SHA256sum: e782ec04f9d72a441b5554e16ef3bf9ccdbf06d635ea11bb8ea14692230cc033
+Filename: rtl8852ce-firmware_20241017-1_aarch64_generic.ipk
+Size: 829645
+SHA256sum: 9716c7921c5608bc6bf60012d877cb5fc5ccd10aafcdd1949febaa890e18b106
 Description:  RealTek RTL8852CE firmware
+
+Package: rtl8922ae-firmware
+Version: 20241017-1
+Depends: libc
+Section: firmware
+Architecture: aarch64_generic
+Installed-Size: 826294
+Filename: rtl8922ae-firmware_20241017-1_aarch64_generic.ipk
+Size: 804703
+SHA256sum: 87ea3aab9172a6a1d91a5326c38b09ff9544e8cb682a4cd1b7dff0ba4da2a382
+Description:  RealTek RTL8922AE firmware
 
 Package: snapshot-tool
 Version: 2023-02-28-bfe882d5-1
@@ -14441,36 +13959,36 @@ Description:  uqmi is a command line tool for controlling mobile broadband modem
  the QMI-protocol.
 
 Package: wil6210-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 254940
-Filename: wil6210-firmware_20240909-1_aarch64_generic.ipk
-Size: 255744
-SHA256sum: ef40598e438d2f820ddeb0fe8fc249d1dc7f012caefaaa0827440e0240a7cb2f
+Installed-Size: 254938
+Filename: wil6210-firmware_20241017-1_aarch64_generic.ipk
+Size: 255751
+SHA256sum: 444dd42a208e014ada1bd09a0099800676027ef32fd01852c5707a9f22ce2586
 Description:  wil6210 firmware
 
 Package: wl12xx-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 1175083
-Filename: wl12xx-firmware_20240909-1_aarch64_generic.ipk
-Size: 1175098
-SHA256sum: f5e1681bda73410731336570a3737b71f24b2103fc678a511d3b62ed8a8c8c87
+Installed-Size: 1175084
+Filename: wl12xx-firmware_20241017-1_aarch64_generic.ipk
+Size: 1175108
+SHA256sum: 9e2cc6bcbbcbe2ee8a8b7ade1e504c0e95c58f233feabac00240880130183cb6
 Description:  TI WL12xx firmware
 
 Package: wl18xx-firmware
-Version: 20240909-1
+Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: aarch64_generic
-Installed-Size: 343327
-Filename: wl18xx-firmware_20240909-1_aarch64_generic.ipk
-Size: 343907
-SHA256sum: c2d2b8001021e8e683544755c4b5b1cf87606257d7119bfa85caec0bede076b0
+Installed-Size: 343324
+Filename: wl18xx-firmware_20241017-1_aarch64_generic.ipk
+Size: 343912
+SHA256sum: c02c8efd497c38ff0ee85b85f65226c19359ba8567a8ee3d99550f89cedccdba
 Description:  TI WL18xx firmware
 
 Package: xdp-filter
@@ -14521,10 +14039,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 31924
+Installed-Size: 31952
 Filename: xtables-legacy_1.8.8-2_aarch64_generic.ipk
-Size: 32412
-SHA256sum: 461a4b8caae45aa04ce39f88317f019e2f7773719c74baf43caac4500038d81c
+Size: 32463
+SHA256sum: d35a4d04b6c1cdefeb097334c2a337d1636a987af12a648b33e1bcf56ee7afd0
 Description:  IP firewall administration tool
 
 Package: xtables-nft
