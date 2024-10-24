@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1727132013
 Architecture: aarch64_generic
-Installed-Size: 47764
+Installed-Size: 47765
 Filename: base-files_1-r24106-10cc5fcd00_aarch64_generic.ipk
-Size: 48757
-SHA256sum: f5a6356e38a0e4bc23737b1ae41de075ec1b474a63955bf21648f66c6a2225b9
+Size: 48759
+SHA256sum: 2897c4efff942277690108117d6fbe3c38b84729f6d5821028b6832224c82196
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -19275,10 +19275,10 @@ Section: net
 SourceDateEpoch: 1727132013
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 31952
+Installed-Size: 31924
 Filename: xtables-legacy_1.8.8-2_aarch64_generic.ipk
-Size: 32463
-SHA256sum: d35a4d04b6c1cdefeb097334c2a337d1636a987af12a648b33e1bcf56ee7afd0
+Size: 32412
+SHA256sum: 461a4b8caae45aa04ce39f88317f019e2f7773719c74baf43caac4500038d81c
 Description:  IP firewall administration tool
 
 Package: xtables-nft
